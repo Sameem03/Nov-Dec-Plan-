@@ -1,0 +1,1375 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Sameem · 30-Day Plan</title>
+<meta name="description" content="30-day plan for Taankay, Fashion Silhouettes, Bündle.co and LinkedIn. 4 Nov to 6 Dec 2026.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='16' fill='%23c4643d'/><text x='32' y='43' font-size='30' text-anchor='middle' fill='white' font-family='Georgia'>30</text></svg>">
+<style>
+:root{
+  --bg:#f6f1e9; --surface:#fffdf9; --surface2:#f1ebe1; --ink:#1f1b16; --muted:#71685c; --faint:#a39a8d; --line:#e6ddcf;
+  --tk:#c25e36; --fs:#3b5b85; --bd:#5b7d55; --li:#2b6cb0; --gold:#b98a2e;
+  --shadow:0 1px 2px rgba(60,40,20,.05),0 8px 24px -12px rgba(60,40,20,.18);
+  --r:18px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --bg:#14120f; --surface:#1d1a16; --surface2:#26221d; --ink:#f2ece2; --muted:#a99f91; --faint:#776e62; --line:#332d26;
+    --tk:#e58a63; --fs:#86a6d4; --bd:#94bb8c; --li:#6fa7e6; --gold:#e0b659;
+    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -14px rgba(0,0,0,.6); color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#14120f; --surface:#1d1a16; --surface2:#26221d; --ink:#f2ece2; --muted:#a99f91; --faint:#776e62; --line:#332d26;
+  --tk:#e58a63; --fs:#86a6d4; --bd:#94bb8c; --li:#6fa7e6; --gold:#e0b659;
+  --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 28px -14px rgba(0,0,0,.6); color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+button,input,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;font-weight:600;letter-spacing:-.01em;margin:0}
+.muted{color:var(--muted)}
+.small{font-size:13px}
+
+/* top bar */
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 0 6px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:600}
+.logo b{display:grid;place-items:center;width:34px;height:34px;border-radius:11px;background:var(--ink);color:var(--bg);font-family:Fraunces,serif;font-size:15px}
+.icon-btn{border:1px solid var(--line);background:var(--surface);border-radius:12px;height:38px;min-width:38px;padding:0 12px;display:inline-flex;align-items:center;gap:6px;justify-content:center;transition:.15s}
+.icon-btn:hover{border-color:var(--faint)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.4fr 1fr;gap:16px;margin:14px 0 18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--shadow)}
+.hello{padding:26px 26px 22px;position:relative;overflow:hidden}
+.hello h1{font-size:clamp(28px,4.4vw,42px);line-height:1.08}
+.hello h1 em{font-style:italic;color:var(--tk)}
+.hello p{margin:10px 0 0;max-width:52ch}
+.hello .blob{position:absolute;right:-60px;top:-60px;width:220px;height:220px;border-radius:50%;background:radial-gradient(circle at 30% 30%,color-mix(in srgb,var(--tk) 26%,transparent),transparent 70%);pointer-events:none}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.stat{background:var(--surface2);border-radius:14px;padding:10px 14px;min-width:110px}
+.stat .n{font-family:Fraunces,serif;font-size:24px;font-weight:600;line-height:1.1}
+.stat .l{font-size:12px;color:var(--muted)}
+.prog{padding:22px;display:flex;gap:20px;align-items:center}
+.ring{position:relative;width:118px;height:118px;flex:none}
+.ring svg{transform:rotate(-90deg)}
+.ring .v{position:absolute;inset:0;display:grid;place-items:center;text-align:center}
+.ring .v b{font-family:Fraunces,serif;font-size:28px;display:block;line-height:1}
+.ring .v span{font-size:11px;color:var(--muted)}
+.bars{flex:1;display:grid;gap:11px;min-width:0}
+.bar-row{display:grid;grid-template-columns:1fr auto;gap:4px 10px;font-size:13px}
+.bar-row .track{grid-column:1/-1}
+.track{height:7px;border-radius:9px;background:var(--surface2);overflow:hidden}
+.track i{display:block;height:100%;border-radius:9px;transition:width .4s ease}
+
+/* nav */
+.nav{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);padding:10px 0;border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.tabs{display:flex;gap:4px;background:var(--surface2);padding:4px;border-radius:14px;overflow-x:auto;max-width:100%;scrollbar-width:none}
+.tabs::-webkit-scrollbar{display:none}
+.tab{border:0;background:transparent;padding:8px 14px;border-radius:10px;font-weight:500;color:var(--muted);white-space:nowrap;transition:.15s}
+.tab.on{background:var(--surface);color:var(--ink);box-shadow:var(--shadow)}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 11px 5px 9px;font-size:13px;display:inline-flex;align-items:center;gap:7px;transition:.15s}
+.chip .dot{width:9px;height:9px;border-radius:50%}
+.chip.off{opacity:.45}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;flex:none}
+.c-tk{--c:var(--tk)} .c-fs{--c:var(--fs)} .c-bd{--c:var(--bd)} .c-li{--c:var(--li)}
+.bgc{background:var(--c)}
+
+main{padding:20px 0 40px}
+.view{animation:fade .25s ease}
+@keyframes fade{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:none}}
+.sec-h{display:flex;align-items:end;justify-content:space-between;gap:12px;margin:0 0 14px;flex-wrap:wrap}
+.sec-h h2{font-size:26px}
+
+/* today */
+.today{display:grid;grid-template-columns:1.55fr 1fr;gap:16px;align-items:start}
+.daybar{display:flex;align-items:center;gap:10px;padding:16px 18px;flex-wrap:wrap}
+.daybar h2{font-size:24px;flex:1;min-width:180px}
+.daybar .sub{font-family:Inter,sans-serif;font-size:13px;color:var(--muted);font-weight:500;display:block;margin-top:2px}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:3px 10px;font-size:12px;font-weight:600;background:color-mix(in srgb,var(--c,var(--ink)) 14%,transparent);color:var(--c,var(--ink))}
+.group{padding:4px 18px 16px}
+.group+.group{border-top:1px solid var(--line);padding-top:14px}
+.g-h{display:flex;align-items:center;gap:8px;margin:6px 0 8px;font-weight:600;font-size:14px}
+.g-h .cnt{margin-left:auto;font-weight:500;color:var(--muted);font-size:12px}
+.task{display:flex;gap:12px;align-items:flex-start;padding:10px 10px;border-radius:12px;cursor:pointer;transition:background .15s;position:relative}
+.task:hover{background:var(--surface2)}
+.task input{position:absolute;opacity:0;pointer-events:none}
+.tick{flex:none;width:22px;height:22px;border-radius:7px;border:2px solid color-mix(in srgb,var(--c,var(--ink)) 55%,var(--line));display:grid;place-items:center;margin-top:1px;transition:.15s}
+.tick::after{content:"";width:10px;height:6px;border-left:2.5px solid #fff;border-bottom:2.5px solid #fff;transform:rotate(-45deg) translate(1px,-1px) scale(0);transition:transform .18s}
+.task input:checked+.tick{background:var(--c,var(--ink));border-color:var(--c,var(--ink))}
+.task input:checked+.tick::after{transform:rotate(-45deg) translate(1px,-1px) scale(1)}
+.task input:focus-visible+.tick{outline:2px solid var(--c);outline-offset:2px}
+.t-body{min-width:0;flex:1}
+.t-txt{display:block}
+.t-meta{display:flex;gap:8px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:2px}
+.task.done .t-txt{color:var(--faint);text-decoration:line-through;text-decoration-color:var(--faint)}
+.tag{font-size:11px;border:1px solid var(--line);border-radius:6px;padding:0 6px}
+.linkbtn{border:0;background:none;padding:0;color:var(--c,var(--li));font-weight:600;font-size:12px;text-decoration:underline;text-underline-offset:2px}
+details.cap{margin:-2px 10px 8px 44px;border:1px solid var(--line);border-radius:12px;background:var(--surface2)}
+details.cap summary{cursor:pointer;padding:8px 12px;font-size:13px;font-weight:600;color:var(--li);list-style:none}
+details.cap summary::-webkit-details-marker{display:none}
+.capbox{padding:0 12px 12px}
+.capbox pre{white-space:pre-wrap;font:14px/1.55 Inter,sans-serif;margin:0 0 8px}
+mark{background:color-mix(in srgb,var(--gold) 26%,transparent);color:inherit;border-radius:4px;padding:0 3px}
+.empty{padding:34px 18px;text-align:center;color:var(--muted)}
+.side{display:grid;gap:16px}
+.side .card{padding:16px 18px}
+.side h3{font-size:18px;margin-bottom:4px}
+.wk-badge{display:flex;gap:8px;align-items:center;margin-top:8px;font-size:13px}
+.mini-list .task{padding:7px 6px}
+.mini-list .t-txt{font-size:14px}
+textarea{width:100%;min-height:96px;border:1px solid var(--line);background:var(--surface2);border-radius:12px;padding:10px 12px;resize:vertical;outline:none}
+textarea:focus,input[type=number]:focus,input[type=text]:focus{border-color:var(--faint)}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:11px;padding:7px 12px;font-weight:500;font-size:13px;display:inline-flex;gap:6px;align-items:center}
+.btn.dark{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.btn:hover{border-color:var(--faint)}
+
+/* calendar */
+.cal-head,.cal{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:8px}
+.cal-head div{font-size:12px;font-weight:600;color:var(--muted);padding:0 4px;text-transform:uppercase;letter-spacing:.06em}
+.cal{margin-top:8px}
+.cell{background:var(--surface);border:1px solid var(--line);border-radius:14px;min-height:132px;padding:9px;text-align:left;display:flex;flex-direction:column;gap:5px;transition:.15s;position:relative;min-width:0}
+.cell:hover{border-color:var(--faint);transform:translateY(-1px)}
+.cell.out{opacity:.35;pointer-events:none;background:transparent;box-shadow:none}
+.cell.is-today{border-color:var(--ink);box-shadow:0 0 0 1px var(--ink)}
+.cell .num{display:flex;align-items:center;justify-content:space-between;font-weight:600;font-size:13px}
+.cell .num .wd{display:none}
+.ms{font-size:10.5px;font-weight:700;color:var(--gold);background:color-mix(in srgb,var(--gold) 15%,transparent);border-radius:6px;padding:1px 6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.ln{display:flex;gap:6px;align-items:center;font-size:12px;min-width:0}
+.ln span:last-child{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ln.done span:last-child{text-decoration:line-through;color:var(--faint)}
+.ln .dot{width:7px;height:7px}
+.more{font-size:11.5px;color:var(--muted)}
+.cell .track{margin-top:auto;height:4px}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+
+/* goals */
+.grid3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.goal{padding:18px;border-top:4px solid var(--c)}
+.goal h3{font-size:20px}
+.goal .stmt{margin:6px 0 10px;color:var(--muted);font-size:14px}
+.out-row{margin:10px 0}
+.out-row .bar-row{font-size:13.5px}
+.sched{display:grid;gap:8px;margin-top:10px}
+.slot{display:grid;grid-template-columns:52px 1fr auto;gap:10px;align-items:center;padding:9px 12px;border-radius:12px;background:var(--surface2);font-size:14px}
+.slot b{font-family:Fraunces,serif;font-size:15px}
+.rules{margin:12px 0 0;padding-left:18px;color:var(--muted);font-size:14px}
+.rules li{margin:5px 0}
+.wk{margin-top:16px}
+.wk>summary{list-style:none;cursor:pointer;padding:16px 18px;display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+.wk>summary::-webkit-details-marker{display:none}
+.wk>summary h3{font-size:20px;flex:1;min-width:200px}
+.wk>summary .chev{transition:transform .2s;color:var(--muted)}
+.wk[open]>summary .chev{transform:rotate(90deg)}
+.wk-body{padding:0 18px 18px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.col{background:var(--surface2);border-radius:14px;padding:12px}
+.col h4{margin:2px 4px 6px;font-size:14px;display:flex;align-items:center;gap:7px}
+.col .task{padding:7px 6px}
+.col .task:hover{background:var(--surface)}
+.col .t-txt{font-size:14px}
+.note{font-size:13px;color:var(--muted);margin:8px 6px 0}
+.note b{color:var(--ink);font-weight:600}
+
+/* model strip */
+.flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px;margin-top:12px}
+.flow div{background:var(--surface2);border-radius:14px;padding:12px;font-size:13.5px}
+.flow b{display:block;font-family:Fraunces,serif;font-size:20px;color:var(--c);line-height:1.1;margin-bottom:4px}
+.ladder{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:12px}
+.ladder div{border:1px solid var(--line);border-radius:14px;padding:12px;font-size:13px;color:var(--muted)}
+.ladder b{display:block;font-family:Fraunces,serif;font-size:22px;color:var(--ink)}
+
+/* tracker */
+.tbl-wrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:10px 10px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+td.m{white-space:normal;min-width:180px}
+input[type=number],input[type=text].in{width:70px;border:1px solid var(--line);background:var(--surface2);border-radius:9px;padding:6px 8px;outline:none}
+input[type=text].in{width:100px}
+.st{font-size:12px;font-weight:600;border-radius:999px;padding:3px 9px;display:inline-block}
+.st.ok{background:color-mix(in srgb,var(--bd) 18%,transparent);color:var(--bd)}
+.st.mid{background:color-mix(in srgb,var(--gold) 20%,transparent);color:var(--gold)}
+.st.bad{background:color-mix(in srgb,var(--tk) 18%,transparent);color:var(--tk)}
+.st.na{background:var(--surface2);color:var(--muted)}
+.pad{padding:18px}
+
+/* linkedin */
+.posts{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
+.post{padding:16px 18px;display:flex;flex-direction:column;gap:10px;border-left:4px solid var(--c)}
+.post.posted{opacity:.7}
+.post .ph{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.post .ph .date{margin-left:auto;font-size:13px;color:var(--muted);font-weight:500}
+.post h3{font-size:18px;line-height:1.25}
+.post pre{white-space:pre-wrap;font:14px/1.55 Inter,sans-serif;margin:0;background:var(--surface2);border-radius:12px;padding:12px;max-height:210px;overflow:auto}
+.post .hash{font-size:13px;color:var(--li)}
+.post .foot{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-top:auto}
+.post .task{padding:4px 0}
+.post .task:hover{background:none}
+.kv{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.kv div{background:var(--surface2);border-radius:14px;padding:12px 14px}
+.kv b{display:block;font-size:12px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-bottom:3px}
+.kv span{font-size:14px}
+
+footer{border-top:1px solid var(--line);padding:22px 0 40px;color:var(--muted);font-size:13px}
+footer .wrap{display:flex;gap:10px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.toast{position:fixed;left:50%;bottom:22px;transform:translate(-50%,30px);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:12px;font-size:14px;opacity:0;transition:.25s;pointer-events:none;z-index:50}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+@media (max-width:960px){
+  .hero,.today{grid-template-columns:1fr}
+  .grid3,.wk-body{grid-template-columns:1fr}
+  .kv{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .flow{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ladder{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:720px){
+  .cal-head{display:none}
+  .cal{grid-template-columns:1fr}
+  .cell{min-height:0}
+  .cell.out{display:none}
+  .cell .num .wd{display:inline;color:var(--muted);font-weight:500;margin-left:6px}
+  .grid2{grid-template-columns:1fr}
+  .prog{flex-direction:column;align-items:stretch}
+  .ring{margin:0 auto}
+  .posts{grid-template-columns:1fr}
+  .hello{padding:22px 18px}
+  details.cap{margin-left:10px}
+}
+details.steps{margin:-4px 10px 8px 44px}
+details.steps summary{cursor:pointer;font-size:12.5px;font-weight:600;color:var(--c,var(--muted));list-style:none;padding:2px 0}
+details.steps summary::-webkit-details-marker{display:none}
+details.steps summary::before{content:"› ";display:inline-block;transition:transform .15s}
+details.steps[open] summary::before{transform:rotate(90deg)}
+details.steps ol{margin:4px 0 6px;padding-left:20px;font-size:13.5px;color:var(--muted)}
+details.steps li{margin:3px 0}
+.post details.steps{margin:0}
+.phases{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px}
+.phases>div{background:var(--surface2);border-radius:14px;padding:12px;font-size:13.5px}
+.phases b{display:block;font-family:Fraunces,serif;font-size:19px;color:var(--c);line-height:1.15}
+@media (max-width:720px){details.steps{margin-left:10px}}
+@media (max-width:420px){.kv,.flow{grid-template-columns:1fr}}
+@media print{.nav,footer,.top .icon-btn{display:none}}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <div class="top">
+    <div class="logo"><b>30</b><span>Sameem's 30-Day Plan</span></div>
+    <div style="display:flex;gap:8px">
+      <button class="icon-btn" id="themeBtn" aria-label="Toggle theme" title="Toggle theme">◑ Theme</button>
+    </div>
+  </div>
+  <section class="hero" id="hero"></section>
+</div>
+
+<nav class="nav">
+  <div class="wrap">
+    <div class="tabs" role="tablist" id="tabs">
+      <button class="tab" data-tab="today">Today</button>
+      <button class="tab" data-tab="calendar">Calendar</button>
+      <button class="tab" data-tab="goals">Goals & Weeks</button>
+      <button class="tab" data-tab="tracker">Tracker</button>
+      <button class="tab" data-tab="instagram">Instagram</button>
+      <button class="tab" data-tab="linkedin">LinkedIn</button>
+    </div>
+    <div class="chips" id="chips"></div>
+  </div>
+</nav>
+
+<main class="wrap"><div id="view"></div></main>
+
+<footer>
+  <div class="wrap">
+    <span>Progress saves in this browser. Back it up now and then.</span>
+    <div style="display:flex;gap:8px;flex-wrap:wrap">
+      <button class="btn" id="exportBtn">Export progress</button>
+      <label class="btn" style="cursor:pointer">Import<input type="file" id="importIn" accept="application/json" hidden></label>
+      <button class="btn" id="resetBtn">Reset</button>
+    </div>
+  </div>
+</footer>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ---------- helpers ---------- */
+const pad=n=>String(n).padStart(2,'0');
+const key=dt=>`${dt.getFullYear()}-${pad(dt.getMonth()+1)}-${pad(dt.getDate())}`;
+const parse=s=>{const[y,m,d]=s.split('-').map(Number);return new Date(y,m-1,d)};
+const addDays=(s,n)=>{const d=parse(s);d.setDate(d.getDate()+n);return key(d)};
+const diff=(a,b)=>Math.round((parse(a)-parse(b))/864e5);
+const fmt=(s,o)=>parse(s).toLocaleDateString('en-GB',o);
+const dow=s=>parse(s).getDay();
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const mk=s=>esc(s).replace(/\[([^\]]+)\]/g,'<mark>[$1]</mark>');
+const START='2026-11-04', END='2026-12-06', REVIEW='2026-12-04';
+
+const BR={
+  tk:{n:'Taankay',t:'B2C E-stitching'},
+  fs:{n:'Fashion Silhouettes',t:'B2B manufacturing'},
+  bd:{n:'Bündle.co',t:'Tech packs on Etsy'},
+  li:{n:'LinkedIn',t:'Personal brand'}
+};
+const ORDER=['tk','fs','bd','li'];
+
+/* ---------- data: tasks by day ---------- */
+const T=[];
+const cnt={};
+function add(d,b,txt,o={}){const k=b+d;cnt[k]=(cnt[k]||0)+1;T.push(Object.assign({id:`${b}-${d}-${cnt[k]}`,d,b,txt},o))}
+
+/* Taankay + FS time blocks */
+const SHOOT={
+  '2026-11-07':'Taankay teaser 2 skit with the presenter, plus 10 process clips at the unit (cutting, stitching, pressing, QC) for both brands',
+  '2026-11-14':'FS corporate shoot (floor, machines, team in branded aprons, QC table) plus the Taankay launch reel: WhatsApp order, rider pickup, sealed pouch, cash at the door; trust kit close-ups',
+  '2026-11-21':'Taankay shaadi fabrics reel and flat lays for the price and size slides; FS factory reels',
+  '2026-11-28':'Unboxings and fit checks from the first Taankay orders; FS samples for warm leads and the factory walkthrough video'
+};
+const TKDAY={};
+/* Daily budget: 2.5 hrs Mon to Fri, 3.5 hrs Sat and Sun */
+const BUDGET=d=>[0,6].includes(dow(d))?3.5:2.5;
+for(let d=START; d<=REVIEW; d=addDays(d,1)){
+  const w=dow(d);
+  if(TKDAY[d]) add(d,'tk',TKDAY[d][0],{blk:'Scheduled on Wednesday',kind:TKDAY[d][1],h:0});
+  if(d===REVIEW) continue;
+  if(w===1) add(d,'fs','Corporate setup, outreach and follow-ups (from sales@)',{blk:'2 hrs',kind:'block',sk:'fs-mon',h:2});
+  if(w===3) add(d,'tk','Content edit, captions and scheduling in Meta Business Suite',{blk:'2.5 hrs',kind:'block',sk:'tk-wed',h:2.5});
+  if(w===5) add(d,'fs','Company documents, decks, quotes and replies',{blk:'2 hrs',kind:'block',sk:'fs-fri',h:2});
+  if(w===6){
+    add(d,'tk','Saturday shoot: '+(SHOOT[d]||'content for both brands'),{blk:'At the unit · 2 hrs',kind:'shoot',sk:'tk-sat',h:2});
+    add(d,'fs','Unit walk: orders, production board, visitor-ready check',{blk:'At the unit · 1.5 hrs',kind:'block',sk:'fs-sat',h:1.5});
+  }
+  if(w===0){
+    add(d,'tk','Taankay DMs, orders and Bykea pickups for the week',{blk:'1 hr',kind:'block',sk:'tk-sun',h:1});
+    add(d,'tk','Weekly review: fill the tracker, log Etsy Stats and Instagram Insights',{blk:'30 min · all brands',kind:'review',sk:'rev-sun',h:.5,m:'review'});
+  }
+}
+add(REVIEW,'tk','Month review: compare against the tracker, keep what worked, set December goals',{blk:'Review day · 2 hrs · all brands',kind:'review',sk:'rev-month',h:2});
+
+/* Taankay Instagram launch: 12 feed posts, Tue Thu Sat at 8:30 PM PKT, scheduled on Wednesdays */
+const TK_TRUST='✦ Stitched in-house at Fashion Silhouettes, Lahore · COD';
+const TK_TAGS='#Taankay #EStitching #LahoreFashion #DesiWear #CustomStitching #PakistaniFashion';
+const TKP=[
+ {d:'2026-11-10',ph:'Teaser 1',f:'Static post',t:'Darzi ke chakkar? Khatam.',hook:'Darzi ke chakkar? Khatam.',
+  v:'Sabz ground, Bodoni headline, "Khatam." in Zari italic, dashed stitch line, ٹانکے small in a corner.',s:'Poll: "How many trips to your darzi for one suit?" 1 / 3+. Question box: "Your worst darzi story?"',
+  c:`Teen chakkar. Do bahane. Aik "bas kal tak."
+
+Something new is coming to Lahore, and it ends all three.
+
+Follow @taankay.pk so you don't miss it.`},
+ {d:'2026-11-12',ph:'Teaser 2',f:'Reel · 12 to 15 sec',t:'POV: "bas kal tak" for the 4th time',hook:'POV: your darzi says "bas kal tak" for the 4th time',
+  v:'Recurring presenter, deadpan to camera; phone call "ji baji, bas kal tak"; calendar flipping; end card "Your fabric. Picked up."',s:'Repost with a "Relatable?" slider. Add countdown sticker: "Something new · 21 Nov".',
+  c:`Tag the friend who has been waiting on her darzi since last Eid.
+
+Something is coming that fixes this. 21 November.
+
+Follow @taankay.pk`},
+ {d:'2026-11-14',ph:'Teaser 3 + waitlist',f:'Carousel · 4 slides',t:'Stitched. Delivered. Pay at the door.',hook:'Stitched. Delivered. Pay at the door.',
+  v:'S1 headline on Sabz; S2 "Your fabric, picked up from home"; S3 "Stitched in our own Lahore unit"; S4 "Founding 50: DM TAANKAY. Launching 21 Nov".',s:'Founding 50 story with a DM sticker. Share waitlist DMs as proof (names hidden).',
+  c:`Stitched. Delivered. Pay at the door.
+
+That's all we'll say for now.
+
+Founding 50: the first 50 people to DM us "TAANKAY" get [intro price / % off] on their first order when we launch on 21 November.
+
+Save your spot before it fills.`},
+ {d:'2026-11-17',ph:'Myth-busting',f:'Carousel · 7 slides',t:'5 lies your darzi tells you',hook:'5 lies your darzi tells you',
+  v:'Cover with "lies" in Zari italic; one lie per slide; last slide: fixed dates, naap on file, free fitting fix in 7 days, 21 Nov.',s:'Quiz sticker: "Which one have you heard?" Reshare with a "Send to your bestie" arrow.',
+  c:`5 lies your darzi tells you. Be honest, you've heard at least three.
+
+1. Bas kal tak
+2. Fabric kam par gaya
+3. Naap wohi purana hai
+4. Pehen ke dekho, theek ho jayega
+5. Eid se pehle pakka
+
+We're building the version where none of these happen. 21 November.
+
+Send this to the friend whose darzi ghosted her before a shaadi.`},
+ {d:'2026-11-19',ph:'Behind the scenes',f:'Reel · 20 to 25 sec',t:'Where your clothes get stitched',hook:'This is where your kurta gets stitched. Not in a back room.',
+  v:'Unit clips from the 7 Nov shoot: cutting, machines, pressing, QC. Overlays "Cut." "Stitched." "Pressed." "Checked." End: "Launching Saturday."',s:'"2 days" countdown. QC clip with "Every piece, checked".',
+  c:`Most stitching happens in a back room you never see.
+
+Ours happens here: our own unit in Lahore, with a cutting table, proper machines, pressing and a quality check before anything leaves.
+
+Taankay launches this Saturday.`},
+ {d:'2026-11-21',ph:'Launch',f:'Reel · 25 to 30 sec',pin:true,t:'Taankay is here',hook:'Taankay is here. Stitching at your doorstep.',
+  v:'Presenter: "Lahore, you don\'t have to go to the darzi anymore." Cuts: WhatsApp order, rider pickup, unit, sealed pouch, cash at the door. End card: full lockup. Pin it; set up highlights the same day.',s:'"We\'re live" story with WhatsApp link. DM every Founding 50 person their code.',
+  c:`Taankay is here. Stitching at your doorstep, Lahore.
+
+You order on WhatsApp. Our rider or Bykea collects your fabric. We stitch it in our own unit. It comes back to your door. You pay cash when it arrives.
+
+S to XL or your custom naap. Alterations too.
+
+Founding 50, your intro price is live. DM "TAANKAY" or WhatsApp [number].
+
+Pay only when it reaches you. Free fitting fix within 7 days.`},
+ {d:'2026-11-24',ph:'How it works',f:'Carousel · 6 slides',pin:true,t:'How E-stitching works',hook:'How E-stitching works, in 5 steps',
+  v:'Cover on Sabz, then one step per slide: order, pickup with receipt, stitched with WhatsApp updates, sealed pouch, COD and 7-day fit fix.',s:'Each slide as a story frame, saved to the "How it works" highlight.',
+  c:`How E-stitching works, in 5 steps:
+
+1. Order on WhatsApp or taankay.com
+2. Our rider or Bykea picks up your fabric. You get a receipt with your order ID
+3. We stitch it at our own unit in Lahore, with a WhatsApp update at every stage
+4. It comes back in a sealed Taankay pouch
+5. You pay cash on delivery
+
+Free fitting fix within 7 days if anything feels off.
+
+Save this so you're not searching for it later.`},
+ {d:'2026-11-26',ph:'Feature: trust',f:'Reel · 15 to 20 sec',t:'Pay only when it reaches you',hook:'Hand my fabric to a rider? Pagal ho?',
+  v:'Presenter says the hook, skeptical; show fabric receipt, WhatsApp status screenshots, sealed pouch; final line "And you pay only when it reaches you."',s:'Question box: "What would stop you from ordering?" Answer in stories, save to FAQs.',
+  c:`"Hand my fabric to a rider? Pagal ho?"
+
+Fair question. Here's what you get:
+✓ A fabric receipt with your order ID at pickup
+✓ A WhatsApp update at every stage
+✓ Your outfit back in a sealed Taankay pouch
+✓ Cash on delivery. No advance, no transfer
+
+Try it once before you trust it.`},
+ {d:'2026-11-28',ph:'Prices + sizes',f:'Carousel · 5 slides',pin:true,t:'Kitna lagega? Clear answer.',hook:'Kitna lagega? Clear answer.',
+  v:'Cover; price list with turnaround days; alterations; S to XL chart in inches; "Not on the chart? Send your custom naap."',s:'Save each slide to "Prices". Poll: "What do you want stitched first?"',
+  c:`Kitna lagega? Clear answer, no "aap aa ke baat kar lein."
+
+Kurta: Rs [ ] · [ ] days
+2-piece: Rs [ ] · [ ] days
+3-piece: Rs [ ] · [ ] days
+Formal: Rs [ ] · [ ] days
+Alterations: from Rs [ ]
+
+Sizes S to XL (chart on slide 4), or send your custom naap.
+
+Pickup and delivery across Lahore. Pay on delivery.
+
+Save this for your next suit.`},
+ {d:'2026-12-01',ph:'Meme',f:'Static meme · 2 panels',t:'Avg darzi customer vs Taankay customer',hook:'Avg darzi customer vs Taankay customer',
+  v:'Left: tired girl, 3rd rickshaw ride, "bas kal tak". Right: same girl on the sofa, Taankay pouch at the door. Sabz and Malmal only.',s:'Reshare with a "Which one are you?" slider.',
+  c:`Avg darzi customer vs Taankay customer.
+
+One of them has been to the darzi three times this week. The other one opened the door once.
+
+Send this to someone who needs to switch.`},
+ {d:'2026-12-03',ph:'Proof',f:'Reel · 20 sec',t:'Our first outfits are home',hook:'Our first [X] outfits just reached their owners',
+  v:'Unboxing of the sealed pouch by a first customer (with permission); 2 to 3 fit checks; overlay real numbers: outfits, average days, fit fixes.',s:'Repost customer stories to "Our Work". Ask each first customer for a one-line review.',
+  c:`Our first [X] outfits just reached their owners across Lahore.
+
+[X] picked up. [X] delivered. Average time from pickup to your door: [Y] days.
+
+Thank you to our Founding 50 for trusting a brand-new name with your fabric.
+
+Next one could be yours. DM us or WhatsApp [number].`},
+ {d:'2026-12-05',ph:'Shaadi season',f:'Reel · 15 to 20 sec',t:'Book before the shaadi rush',hook:'Your darzi\'s December is already full. Ours isn\'t (yet).',
+  v:'Presenter holding mehndi, baraat and valima fabrics; "Book by [date] for delivery before [date]"; end card with WhatsApp and "Pay on delivery".',s:'Countdown sticker for the booking cutoff. Poll: "Which outfit is still not ready?"',
+  c:`Shaadi season is here, and your darzi's December is already full.
+
+Book your mehndi, baraat or valima outfit by [date] and get it back before [date].
+
+We pick up, we stitch, we deliver. You pay when it arrives.
+
+Send this to the friend whose darzi ghosted her before the mehndi.`}
+];
+TKP.forEach((p,i)=>{p.i=i;add(p.d,'tk',`IG ${i+1}: ${p.t}`,{blk:'Instagram · 8:30 PM PKT · '+p.f+(p.pin?' · pin it':''),kind:'igpost',cb:'tk',ci:i,h:0});p.id=T[T.length-1].id});
+
+/* Fashion Silhouettes Instagram: fresh start, 6 posts, Mon and Fri at 1:00 PM PKT */
+const FSP=[
+ {d:'2026-11-16',ph:'Introduce',f:'Carousel · 6 slides',pin:true,t:'What is Fashion Silhouettes?',hook:'What is Fashion Silhouettes?',
+  v:'Navy ground, Bodoni headline, saffron dashed seam. Slides: who we are, what we make, our unit, how we work, who it is for, contact.',s:'Share to stories with "New look, same floor" and a WhatsApp link sticker.',
+  c:`What is Fashion Silhouettes?
+
+We are a garment manufacturing unit in Lahore, making dress shirts, shalwar qameez and bridal wear for growing brands.
+
+→ Sampling, bulk production, QC and packing under one roof
+→ Low minimums for labels that are just starting
+→ A written quote within 48 hours of your tech pack
+
+New look, same floor. Swipe to see who we make for.
+
+RFQs: sales@[domain] · WhatsApp 0321 5337223`},
+ {d:'2026-11-20',ph:'Process',f:'Reel · 20 to 30 sec',t:'From tech pack to garment',hook:'Your tech pack goes in. Your garment comes out.',
+  v:'Clips from the 14 Nov corporate shoot: tech pack on the table, cutting, stitching, pressing, QC, packing. One word on screen per stage.',s:'Cutting table clip: "This week at the unit".',
+  c:`Your tech pack goes in. Your garment comes out.
+
+Spec review → sampling → cutting → stitching → pressing → QC → packing.
+
+Every stage happens on our own floor in Lahore, so nothing gets lost between workshops.
+
+Working on your next drop? Send us your tech pack for a quote within 48 hours.`},
+ {d:'2026-11-23',ph:'Capabilities',f:'Carousel · 5 slides',pin:true,t:'What we make, and how much',hook:'Dress shirts. Shalwar qameez. Bridal.',
+  v:'One category per slide with a product photo; a capacity slide with machines and pieces per day; last slide: website live, profile download.',s:'Website launch story with a link sticker to [website].',
+  c:`Dress shirts. Shalwar qameez. Bridal.
+
+What we make, and how much:
+→ [X] machines across stitching, overlock and finishing
+→ Up to [X] pieces a day
+→ MOQ from [X] pieces per style
+
+Our website is live today: capabilities, process and our company profile in one place.
+
+Company profile: [website]`},
+ {d:'2026-11-27',ph:'Quality',f:'Reel · 15 to 20 sec',t:'Every piece, checked',hook:'Three checks before anything leaves the floor.',
+  v:'QC table close-ups: measuring tape on a garment, thread trimming, inspection tag, folded pieces going into poly bags.',s:'Poll: "What matters most in a manufacturer?" Quality / Lead time / MOQ.',
+  c:`Three checks before anything leaves the floor.
+
+1. After cutting: panels against the pattern
+2. On the line: seams, stitch density, finishing
+3. Before packing: measurements against your spec sheet
+
+If bulk does not match the approved sample, it does not ship.
+
+Ask for our QC checklist with your quote.`},
+ {d:'2026-11-30',ph:'How to work with us',f:'Carousel · 6 slides',pin:true,t:'How to start production with us',hook:'From first message to first shipment in 5 steps',
+  v:'One step per slide: RFQ, quote in 48 hours, sample, approval and advance, bulk and delivery. Last slide: contact.',s:'Save each slide to the "MOQ & Terms" highlight.',
+  c:`How to start production with Fashion Silhouettes:
+
+1. Send your tech pack or a reference sample
+2. Get a written quote within 48 hours
+3. Approve your sample
+4. Confirm the order with an advance
+5. Bulk production, QC and delivery on the agreed date
+
+MOQ from [X] pieces per style. Lead time [X] days after sample approval.
+
+Save this for your next drop.
+RFQs: sales@[domain] · WhatsApp 0321 5337223`},
+ {d:'2026-12-04',ph:'Build in public',f:'Carousel · 4 slides',t:'Pieces made this month',hook:'[X] pieces made this month',
+  v:'Team photo in branded aprons; a numbers slide (pieces, orders, brands); one finished garment close-up; contact slide.',s:'Thank-you story tagging the brands that allow it.',
+  c:`[X] pieces made on our floor this month.
+
+[X] orders. [X] brands. One of them is our own: Taankay, our doorstep stitching service for Lahore.
+
+Thank you to the team behind every seam, and to the brands that trusted a new name.
+
+Taking orders for January production now. sales@[domain]`}
+];
+FSP.forEach((p,i)=>{p.i=i;add(p.d,'fs',`IG ${i+1}: ${p.t}`,{blk:'Instagram · 1:00 PM PKT · '+p.f+(p.pin?' · pin it':''),kind:'igpost',cb:'fs',ci:i,h:0});p.id=T[T.length-1].id});
+const IGC={tk:TKP,fs:FSP};
+const IGB={
+ tk:{time:'8:30 PM PKT',when:'Wednesday Taankay block',cad:'12 feed posts · Tue, Thu, Sat · 10 Nov to 5 Dec · batched every Wednesday',trust:TK_TRUST,tags:TK_TAGS,
+  bio:'Darzi ka "bas kal tak" khatam ✂\nStitching at your doorstep · Lahore\nPay only when it reaches you\n✦ by Fashion Silhouettes',
+  phases:[['Tease','10 to 19 Nov','Name the pain, build the Founding 50 waitlist'],['Launch','21 Nov','"Taankay is here", pinned reel, intro price live'],['Explain','24 to 28 Nov','How it works, trust kit, prices and sizes'],['Prove','1 to 5 Dec','Meme, first deliveries, shaadi-season push']],
+  hl:'How it works · Prices · Naap Series · Our Work · FAQs',rules:'Trust line on every caption, one keyword in Zari italic, same presenter in every reel, every caption ends in a share, save or DM ask, DMs answered the same day',
+  fill:['IG 3: Founding 50 intro price','IG 6 and 11: WhatsApp number','IG 9: prices and turnaround days','IG 11: first-order numbers','IG 12: shaadi booking cutoff dates'],
+  setup:[
+   ['Claim @taankay.pk and switch to a Business account',[`Instagram: Settings, Account type, switch to Business`,`Category: Clothing Store`,`Contact: the Taankay WhatsApp number`]],
+   ['Paste the bio and add the WhatsApp order link',[`Copy the bio above exactly`,`Add a wa.me link with a prefilled "Hi Taankay" message`,`Swap in taankay.com on launch day`]],
+   ['Profile picture: the ٹ icon on Sabz',[`Export the icon from Taankay_Logo_Kit.zip at 1080 px`,`Check it reads at small size`]],
+   ['Make 5 highlight covers',[`Canva: Malmal circle, Sabz line icon, Zari stitch ring`,`How it works, Prices, Naap Series, Our Work, FAQs`,`Add each when its first story goes live`]],
+   ['Follow only Fashion Silhouettes and partners',[`Keep following under 10, Paymo style`]],
+   ['Pick the presenter for every reel',[`One person, same look family in every reel`,`Brief them on the hooks for IG 2, 6, 8 and 12`]],
+   ['Schedule IG 1 to 3 by Mon 9 Nov',[`Make IG 1 and IG 3 in Canva`,`Edit IG 2 from the 7 Nov shoot`,`Schedule all three in Meta Business Suite at 8:30 PM`]]
+  ]},
+ fs:{time:'1:00 PM PKT, office hours for brand owners',when:'Friday FS block',cad:'6 posts · Mon and Fri · 16 Nov to 4 Dec · scheduled in the Friday FS block',
+  trust:'✦ Fashion Silhouettes · Garment Manufacturing · Lahore',tags:'#FashionSilhouettes #GarmentManufacturing #ClothingManufacturer #MadeInPakistan #PrivateLabel #Lahore',
+  bio:'Garment manufacturing for growing brands\nDress shirts · Shalwar qameez · Bridal\nLahore · Quote in 48 hours\n✦ Makers of @taankay.pk',
+  phases:[['Introduce','16 to 20 Nov','Pinned explainer and the floor'],['Prove','23 to 27 Nov','Capabilities, website launch, QC'],['Convert','30 Nov to 4 Dec','How to work with us, the month in numbers']],
+  hl:'Capabilities · Process · QC · MOQ & Terms · Contact',rules:'Speak as "we", reuse the company core word for word, navy grid with the saffron seam, every caption ends with the RFQ line, follow only Taankay and partner brands',
+  fill:['FS 1, 5 and 6: sales@ on the new domain','FS 3 and 5: machines, pieces per day, MOQ, lead time','FS 3: website link','FS 6: the month in numbers'],
+  setup:[
+   ['Archive every old post',[`Profile, each post, Archive (keeps them, hides them)`,`Clear old highlights too`]],
+   ['Paste the bio, category Clothing Manufacturer',[`Copy the bio above`,`Add WhatsApp 0321 5337223 and sales@ as contact buttons`]],
+   ['Profile picture: FS monogram, reversed on navy',[`Export the icon version from the brand guidelines`,`Check the seam reads at small size`]],
+   ['Make 5 highlight covers',[`Navy circle, ivory line icon, saffron seam`,`Capabilities, Process, QC, MOQ & Terms, Contact`]],
+   ['Schedule FS 1 and 2 by Fri 13 Nov',[`Design FS 1 in Canva from the company core`,`Edit FS 2 from the 7 Nov clips if the 14 Nov shoot runs late`]]
+  ]},
+ bd:{time:'7:00 PM PKT (9 AM US Eastern, when Etsy buyers scroll)',when:'Tuesday Bündle.co block',cad:'4 posts · Tuesdays · 10 Nov to 1 Dec · made inside the Tuesday block',
+  trust:'✦ Bündle.co · Technical design studio · Tech packs on Etsy',tags:'#TechPack #FlatSketch #FashionDesign #ProductDevelopment #Bundleco #FashionStartup',
+  hl:'Use the highlights set in BRAND-032',rules:'One pack per post, show real pages, every caption ends with the Etsy link in bio, post the price',
+  fill:['BD 3: FQZ-001 fleece GSM'],
+  setup:[
+   ['Finish the 13 Instagram settings in BRAND-032',[`Open BRAND-032 and work top to bottom`,`Tick each setting as you go`]],
+   ['Point the bio link to the winter outerwear section on Etsy',[`Etsy: create a Winter outerwear section`,`Use that section URL in the bio`]],
+   ['Pin the newest pack post each time one goes live',[`Unpin the older one first`]]
+  ]}
+};
+function igSteps(b,p){const c=IGB[b];return [
+  `${c.when}: check it is scheduled in Meta Business Suite for ${c.time.split(',')[0].split(' (')[0]}`,
+  `Fill every [bracket] in the caption before it goes live`,
+  p.pin?`When it is live: pin it to the profile`:`When it is live: share it to your stories`,
+  `Stories that day: ${p.s}`,
+  `Reply to every comment and DM within the first hour`,
+  `Sunday review: log reach, saves and shares in the Tracker`]}
+const SHOOTFEEDS={'2026-11-07':'TK 2, TK 5, FS 2 backup','2026-11-14':'TK 6, TK 8, FS 2, FS 3','2026-11-21':'TK 9, TK 12, FS 4','2026-11-28':'TK 11, FS 6'};
+const STEPS={
+ 'fs-mon':[`Open this week's FS checklist and pick the top 2 items`,`Weeks 1 and 2: corporate setup first (domain, email, profiles, deck)`,`From week 3: send the outreach batch from sales@ with the profile and MOQ sheet attached`,`Follow up on WhatsApp or DM anyone pitched 3 or more days ago`,`Log contacts, replies and calls in the lead sheet; leftovers move to Friday`],
+ 'tk-wed':[`Move the Saturday clips into one folder and open CapCut`,`Edit the reels for the coming Tue, Thu and Sat with on-screen text and the Sabz end card`,`Design carousels and statics in Canva from the Taankay template`,`Paste captions from the Instagram tab and fill every [bracket]`,`Schedule all three in Meta Business Suite at 8:30 PM PKT`],
+ 'fs-fri':[`Work on this week's FS document (profile deck, MOQ sheet, costing or process pack)`,`Use the stationery kit and the company core word for word`,`Send any quote due within 48 hours of its RFQ`,`Reply to every sales@ email and RFQ`,`Schedule next week's FS Instagram posts`],
+ 'tk-sat':[`Night before: turn the shoot note into a shot list and charge the phone`,`At the unit: film vertical 9:16, 5 to 10 seconds per clip, near daylight`,`Film every presenter line for the week in one sitting`,`Take 3 stills per scene for carousels`,`Back up to Google Drive in a dated folder before you leave`],
+ 'fs-sat':[`Check the production board: orders, due dates, bottlenecks`,`Confirm Taankay orders on the line and their delivery dates`,`Visitor-ready check: entrance, sample rack, clean floor, aprons`,`Note machine or capacity issues for Monday`],
+ 'tk-sun':[`Clear Instagram and WhatsApp DMs; send the price list and size chart where asked`,`Confirm next week's orders and book Bykea or rep pickups with time slots`,`Send each customer the receipt and order ID on WhatsApp`,`Update the order sheet: picked up, stitching, dispatched, delivered, paid`],
+ 'rev-sun':[`Open the Tracker tab and fill this week's column`,`Instagram Insights for all three brands: reach, saves, shares, profile visits`,`Etsy Stats: views, favourites, sales`,`Anything 50% behind gets next Saturday's block`,`Write one line in today's notes: keep, stop, try`],
+ 'rev-month':[`Fill the last Tracker week and compare totals against targets`,`Pick the top 3 posts per brand and why they worked`,`Note one thing to stop, keep and try in December`,`Set December goals using the order ladder (25 Taankay orders in January)`,`Bring these numbers to Claude for the December plan`],
+ 'bd-live':[`Duplicate the full pack listing on Etsy`,`Swap the file and edition name, set the price`,`Update the first image and title for this edition`,`Publish and check it shows in the shop`],
+ 'bd-once':[`Open BRAND-032`,`Work through the 13 settings in order`,`Tick each one off in the doc`],
+ 'li-prep':[`Screenshot followers, profile views and impressions for the start metrics`,`Change the headline to "COO, Fashion Silhouettes"`,`Make the visuals for posts 1 and 2 in Canva`],
+ 'li-post':[`Copy the caption and fill every [bracket]`,`Upload the visual listed under the caption`,`Post at the time shown; tag the FS company page on FS posts`,`Reply to every comment in the first hour`,`Leave 3 thoughtful comments on founders', buyers' or merchandisers' posts`],
+ 'li-conn':[`Send 10 personalised requests: brand founders, buyers, merchandisers`,`Check which post got the most comments and why`,`Note what to repeat next week`],
+ 'li-end':[`Screenshot the same metrics as on 9 Nov`,`Fill the End column in the Tracker`,`Note the best post and the leads it brought`],
+ 'bd-2026-11-05':[`Final check of every PFJ-001 page, export the PDF`,`Etsy listing: images, title, tags, $28, upload the file`,`Publish and share the link in stories`,`Duplicate the PFJ file as FQZ-001 and rename the layers`],
+ 'bd-2026-11-08':[`Fabric: polar fleece GSM, composition, colourways`,`Zip: type, length, puller`,`BOM: trims, labels, thread`,`POMs with tolerances for S to XL`],
+ 'bd-2026-11-10':[`Draw the front flat from the block`,`Mirror and adjust for the back`,`Add stitch lines and topstitching`,`Export a PNG for the reel`],
+ 'bd-2026-11-12':[`Callouts for zip, collar and cuffs`,`Build page 1 cover, page 2 flats, page 3 specs`,`Check fonts and logo on each page`],
+ 'bd-2026-11-15':[`Pages 4 and 5: measurements and grading`,`Pages 6 and 7: construction and stitch types`,`Page 8: BOM`,`Cross-check numbers against the spec table`],
+ 'bd-2026-11-17':[`Page 9: labels and packaging`,`Page 10: colourways`,`Page 11: artwork placement`,`Page 12: sign-off and revision log`],
+ 'bd-2026-11-19':[`Audit every page against the spec table`,`Make the mini, flat sketch and Canva editions`,`Export all PDFs and the Canva link`],
+ 'bd-2026-11-22':[`Make 10 listing images from the mockup template`,`Title with the main keywords first`,`13 tags and a description of what is included`,`Save as a draft`],
+ 'bd-2026-11-24':[`Preview the draft one last time`,`Publish at $24`,`Share in stories and post BD IG 3`],
+ 'bd-2026-11-26':[`Duplicate the PFJ-001 files as PFV-001`,`Remove sleeves, add armhole binding`,`Update the spec table and BOM`],
+ 'bd-2026-11-29':[`Edit pages 1 to 12 from PFJ-001`,`Update every measurement for the vest`,`Search the file so every page says PFV, not PFJ`],
+ 'bd-2026-12-01':[`Audit the PFV pages`,`Make the editions`,`Etsy images and copy`,`Design the bundle cover: PFJ, FQZ, PFV`],
+ 'bd-2026-12-03':[`Publish PFV-001 full at $24`,`Create the bundle listing about 20% below the three packs`,`Link the bundle from each single listing`]
+};
+
+/* Bündle.co rows: Tue 2 hrs, Thu 2.5 hrs, Sun 2 hrs. date, build, [live], insta */
+const BDR=[
+ ['2026-11-05','Publish PFJ-001 full pack, then set up the FQZ file',['PFJ-001 full ($28)'],''],
+ ['2026-11-08','FQZ spec table: polar fleece GSM, zip length, BOM, POMs',['PFJ-001 flat sketch ($8)'],''],
+ ['2026-11-10','FQZ flats: front and back',['PFJ-001 mini ($12)'],'Reel: puffer flat sketch build'],
+ ['2026-11-12','FQZ flats: zip and collar details, then pages 1 to 3',['PFJ-001 Canva ($28)'],''],
+ ['2026-11-15','FQZ pages 4 to 8',[],''],
+ ['2026-11-17','FQZ pages 9 to 12',[],'Interior carousel: puffer jacket pages'],
+ ['2026-11-19','FQZ cross-page audit, then mini, flat and Canva editions',[],''],
+ ['2026-11-22','FQZ Etsy images, title, tags and copy',[],''],
+ ['2026-11-24','Publish FQZ-001 full pack',['FQZ-001 full ($24)'],'Education: what GSM a winter fleece should be'],
+ ['2026-11-26','PFV spec table and flats from the PFJ files: drop sleeves, add armhole binding',['FQZ-001 flat sketch ($8)'],''],
+ ['2026-11-29','PFV pages 1 to 12, edited from PFJ-001',['FQZ-001 mini ($12)'],''],
+ ['2026-12-01','PFV audit, editions, Etsy images and copy, bundle cover',['FQZ-001 Canva ($24)'],'Reel: quarter-zip tech pack page flip'],
+ ['2026-12-03','Publish PFV-001 full pack and the winter outerwear bundle',['PFV-001 full ($24)','Winter outerwear bundle: PFJ, FQZ, PFV (about 20% below the 3 packs)'],'']
+];
+/* Bündle.co Instagram: 4 posts on Tuesdays at 7:00 PM PKT (9 AM US Eastern) */
+const BDP=[
+ {d:'2026-11-10',ph:'Process reel',f:'Reel · 20 to 30 sec',t:'Puffer flat sketch build',hook:'From blank artboard to factory-ready flat in 30 seconds',
+  v:'Sped-up Illustrator screen recording of the PFJ-001 front flat: block, baffle lines, zip, cuffs, callouts. End on the finished flat next to the cover page.',s:'Poll: "Do you draw your own flats?" Yes / I outsource. Link sticker to the Etsy listing.',
+  c:`Every puffer starts here.
+
+Front, back, baffle lines, zip and cuffs, drawn to scale so a factory can quote it on the first read.
+
+The full PFJ-001 puffer jacket tech pack is on our Etsy: 12 pages with flats, specs, BOM and POMs. Editions from $8.
+
+Link in bio. Save this for your next development.`},
+ {d:'2026-11-17',ph:'Inside the pack',f:'Carousel · 7 slides',t:'Inside a 12-page puffer tech pack',hook:'What is inside a 12-page puffer tech pack',
+  v:'Cover slide, then one real page per slide: style info, flats, construction, measurements, BOM, labels. Light crop so buyers still need the file.',s:'Share slide 1 with "Which page do you skip?" question box.',
+  c:`What a factory actually needs to make your puffer:
+
+1. Cover and style info
+2. Front and back flats
+3. Construction details
+4. Measurements and grading
+5. BOM and trims
+6. Labels and packaging
+
+PFJ-001 has all of it, ready to edit in Canva or Illustrator. Link in bio.
+
+Send this to a designer who is still sending sketches on WhatsApp.`},
+ {d:'2026-11-24',ph:'Education + launch',f:'Carousel · 5 slides',t:'What GSM should a winter fleece be?',hook:'What GSM should a winter fleece be?',
+  v:'Three fabric swatch photos with GSM labels, then the FQZ-001 flat and spec table, last slide "Live on Etsy today".',s:'Quiz sticker: "Heaviest fleece?" 180 / 250 / 320 GSM. Launch story with the listing link.',
+  c:`What GSM should a winter fleece be?
+
+Under 200 GSM: a light layer for early autumn
+200 to 280 GSM: the everyday quarter-zip
+280 GSM and up: heavy, outer-layer warmth
+
+Our new FQZ-001 quarter-zip tech pack specs it at [GSM] polar fleece, with zip length, BOM and POMs done. Live on Etsy today, $24.
+
+Save this for your next fabric order.`},
+ {d:'2026-12-01',ph:'Page flip reel',f:'Reel · 15 sec',t:'Quarter-zip tech pack page flip',hook:'12 pages. One quarter-zip. Zero guesswork.',
+  v:'Fast page flip of the FQZ-001 PDF on a tablet or printed pages, one beat per page, end on the four edition covers.',s:'Countdown sticker: "Winter outerwear bundle · Thursday".',
+  c:`Every page a factory asks for, in one file: flats, zip and collar details, measurements, BOM and labels.
+
+FQZ-001 is on Etsy in 4 editions: full $24, Canva $24, mini $12, flat sketch $8.
+
+The winter outerwear bundle drops Thursday. Follow so you catch it.`}
+];
+BDR.forEach(([d,b,live,ig])=>{
+  const th=dow(d)===4;
+  add(d,'bd',b,{blk:th?'2.5 hrs':'2 hrs',kind:'build',sk:'bd-'+d,h:th?2.5:2});
+  live.forEach(l=>add(d,'bd','Goes live on Etsy: '+l,{blk:'Etsy · 5 min',kind:'live',sk:'bd-live',m:'listing',full:/full/.test(l),h:0}));
+  if(ig){const i=BDP.findIndex(p=>p.d===d);if(i>-1){add(d,'bd',`IG ${i+1}: ${BDP[i].t}`,{blk:'Instagram · 30 min · 7:00 PM PKT · '+BDP[i].f,kind:'igpost',cb:'bd',ci:i,m:'ig',h:.5});BDP[i].i=i;BDP[i].id=T[T.length-1].id}}
+});
+IGC.bd=BDP;
+add('2026-11-08','bd','One-time: finish the 13 Instagram settings in BRAND-032 (10 min, inside the block)',{blk:'Sunday',kind:'once',sk:'bd-once',h:0});
+[
+ 'Count listings live vs the 10 target',
+ 'Etsy Stats: views, favourites and sales per listing; note the top 3',
+ 'Which tier sold or got favourited most: full, Canva, mini or flat',
+ 'Instagram: shares ÷ reach and profile visits, reels vs carousels',
+ 'Buyer questions and Fiverr enquiries received',
+ 'One thing to stop, one to keep, one to try in December'
+].forEach(x=>add(REVIEW,'bd',x,{blk:'Inside the month review',kind:'review',h:0}));
+
+/* LinkedIn posts */
+const POSTS=[
+ {d:'2026-11-09',p:'st',f:'Text + portrait or 3-panel photo',t:'One garment, three stages: introducing all three businesses',
+  c:`One garment goes through three stages before someone wears it. I work on all three.
+
+I'm Sameem, a Fashion Marketing & Merchandising student at PIFD, Lahore, and COO of Fashion Silhouettes.
+
+→ Bündle.co: technical design. The tech pack that tells a factory exactly what to make.
+→ Fashion Silhouettes: B2B garment manufacturing. Turning those specs into production for brands.
+→ Taankay: E-stitching. Stitching at your doorstep, one person at a time.
+
+Spec, scale, stitch. Over the next month I'll share what each one teaches me about this industry.
+
+If you're a brand, a buyer or someone who cares how clothes are made, let's connect.`,
+  h:'#FashionManufacturing #Merchandising #PIFD #Founder',v:'Portrait, or a 3-panel image: tech pack, factory floor, tailor\'s table.'},
+ {d:'2026-11-11',p:'fs',f:'Carousel (6 slides)',t:'Introducing Fashion Silhouettes',
+  c:`Pakistan makes clothes for the world. Fashion Silhouettes makes them for brands that want to start.
+
+What we make: dress shirts, shalwar qameez and bridal wear.
+→ [MOQ, e.g. low minimums for growing brands]
+→ Sampling, bulk production, QC and packing under one roof
+→ A written quote within 48 hours of your tech pack
+
+Who it's for: Pakistani D2C labels ready to move past home tailors.
+
+Swipe to see how an order moves from sample to shipment.
+
+Company profile and MOQ sheet: [website] or sales@[domain].`,
+  h:'#GarmentManufacturing #PrivateLabel #MadeInPakistan #B2B',v:'Corporate shoot photos: production floor, team in branded aprons, QC table, packing.'},
+ {d:'2026-11-13',p:'tk',f:'Text + photo',t:'Introducing Taankay',
+  c:`Getting clothes stitched in Lahore usually means three trips to the darzi. We cut it to zero.
+
+That's Taankay: E-stitching, stitching at your doorstep.
+
+→ Order on WhatsApp or taankay.com
+→ Our rider or Bykea collects your fabric
+→ Stitched in our own Lahore unit, in S to XL or your custom size
+→ Delivered by courier. You pay cash on delivery.
+
+Alterations too. [Turnaround time]
+
+What's the one piece you'd never buy off the rack?`,
+  h:'#Taankay #EStitching #CustomStitching #Lahore',v:'Flat lay: fabric, Taankay pouch, measuring tape, finished kurta.'},
+ {d:'2026-11-16',p:'bd',f:'Carousel (5 slides)',t:'What a tech pack saves a brand',
+  c:`A 10-page document can save a brand an entire sampling round.
+
+At Bündle.co, a tech pack answers the factory's questions before they're asked:
+→ Measurements and tolerances
+→ Fabric, trims and colourways
+→ Construction and stitch types
+→ Labelling and packaging
+
+I see it from both sides now. When specs reach the floor at Fashion Silhouettes, a clear tech pack saves days and an unclear one costs them.
+
+Swipe for the anatomy of a tech pack factories actually like.`,
+  h:'#TechPack #ProductDevelopment #Bundleco #Sampling',v:'Annotated tech pack sections, one per slide.'},
+ {d:'2026-11-18',p:'fs',f:'Carousel (5 slides)',t:'Nishat Mills PPC lessons applied to our production',
+  c:`My PPC internship at Nishat Mills changed how we run production at Fashion Silhouettes.
+
+3 lessons I brought back:
+1. Lead time is a design constraint, not an afterthought
+2. One late approval ripples through cutting, stitching and dispatch
+3. A good merchandiser speaks both factory and buyer
+
+Big mill or small unit, the planning problems are the same. Only the scale changes.
+
+Which stage of production do you think brands underestimate most?`,
+  h:'#ProductionPlanning #SupplyChain #NishatMills #Manufacturing',v:'Production timeline graphic, one lesson per slide.'},
+ {d:'2026-11-20',p:'tk',f:'Carousel (5 slides)',t:'Why your size M fits differently everywhere',
+  c:`Why your size M fits differently at every brand.
+
+Ready-to-wear sizing is a guess based on averages. Every brand guesses differently.
+
+Taankay fixes the guess two ways:
+→ A published S to XL chart, in inches, so you know exactly what M means
+→ A custom size option when the chart isn't you
+
+Your fabric, our rider, your size. Cash on delivery.
+
+Swipe for the 5 measurements that matter most.`,
+  h:'#Taankay #Fit #CustomClothing #PakistaniFashion',v:'Size chart slide, then body diagram with measurement points.'},
+ {d:'2026-11-23',p:'st',f:'Text + simple graphic',t:'Black Friday, overproduction and two alternatives',
+  c:`Black Friday discounts are decided months before the sale starts.
+
+A markdown is usually a planning outcome: buy depth that was too deep, sell-through that slowed, stock that has to clear.
+
+Two models I work with avoid this differently:
+→ Fashion Silhouettes: small-batch production, so brands test before they scale
+→ Taankay: made to order, so there's no unsold stock at all
+
+Shoppers see a sale. Merchandisers see a forecast being corrected.
+
+Should more brands produce less, more often?`,
+  h:'#BlackFriday #Overproduction #Merchandising #SustainableFashion',v:'Simple chart: mass production vs. small batch vs. made to order.'},
+ {d:'2026-11-25',p:'bd',f:'Text + brand visual',t:'Bündle.co\'s new direction',
+  c:`Bündle.co is changing. Here's why.
+
+We started with tech packs on Etsy. Clients kept asking for more: [what they asked for].
+
+So Bündle.co is now [new scope in one line].
+
+The difference: our specs are written by people who also see them produced. Spec at Bündle.co, production at Fashion Silhouettes, one conversation.
+
+Follow @bundleco.studio, and reach out if your brand needs [service].`,
+  h:'#Bundleco #TechnicalDesign #FashionStudio #BuildInPublic',v:'Tech pack next to the finished garment it produced.'},
+ {d:'2026-11-27',p:'fs',f:'Carousel (6 slides)',t:'5 questions to ask a manufacturer before the first order',
+  c:`5 questions every brand should ask a manufacturer before the first order.
+
+1. What's your MOQ per style and per colour?
+2. How many sampling rounds are included?
+3. What's the real lead time, not the quoted one?
+4. Who checks quality, and at which stage?
+5. What happens if bulk doesn't match the sample?
+
+At Fashion Silhouettes, these answers are written into every quote, along with our QC checklist and payment terms.
+
+Save this for your next factory call.`,
+  h:'#GarmentManufacturing #StartupBrand #QualityControl #B2B',v:'One question per slide, answer slide at the end.'},
+ {d:'2026-11-30',p:'fs',f:'Poll',t:'Biggest hurdle for local brands to scale',
+  c:`Pakistan makes clothes for the world. Why is it still hard for local brands to scale?
+
+I see this every week from the manufacturing side, and I'm researching it for my thesis too.
+
+What's the biggest hurdle?
+
+I'll share the results and what we're doing about it at Fashion Silhouettes.`,
+  h:'#MadeInPakistan #LocalManufacturing #TextileIndustry #FashionBusiness',v:'Poll options: Minimum order quantities / Access to quality inputs / Branding & marketing / Funding.'},
+ {d:'2026-12-02',p:'tk',f:'Short video (45 to 60 sec)',t:'Wedding season: book your stitching early',
+  c:`Wedding season is here. Your darzi's calendar is already full.
+
+Taankay works differently: you book on WhatsApp, our rider collects your fabric, and your outfit comes back to your door. You pay when it arrives.
+
+Here's one order, from pickup to delivery. [Turnaround time]
+
+Planning outfits for the season? Book early and skip the last-minute stress.`,
+  h:'#Taankay #WeddingSeason #EStitching #Lahore',v:'Sped-up video: rider pickup, cutting, stitching, packed pouch, doorstep delivery.'},
+ {d:'2026-12-04',p:'st',f:'Text + photo',t:'Month recap and where to find each business',
+  c:`A month of posting about spec, scale and stitch. Here's what I learned.
+
+→ [Most-engaged post and why it landed]
+→ [One conversation or lead that came from posting]
+→ [One thing you'd do differently]
+
+If you need:
+→ A tech pack or technical design: Bündle.co
+→ Production for your brand: Fashion Silhouettes
+→ Clothes stitched at your doorstep: Taankay
+
+I'm also open to merchandising and buying opportunities for 2027. DMs open.`,
+  h:'#Founder #FashionManufacturing #Merchandising #OpenToWork',v:'Candid photo at the factory or workspace.'}
+];
+const PILLAR={st:{n:'Spec to Stitch',c:'li'},fs:{n:'Fashion Silhouettes',c:'fs'},tk:{n:'Taankay',c:'tk'},bd:{n:'Bündle.co',c:'bd'}};
+const LIPLAN={0:'2026-11-09',1:'2026-11-13',3:'2026-11-16',2:'2026-11-20',6:'2026-11-23',8:'2026-11-27',10:'2026-11-30',11:'2026-12-04'};
+POSTS.forEach((p,i)=>{p.i=i;p.d=LIPLAN[i]||null});
+const LIVE=POSTS.filter(p=>p.d).sort((a,b)=>a.d<b.d?-1:1);
+const BACKLOG=POSTS.filter(p=>!p.d);
+add('2026-11-06','li','Prep: log start metrics, change headline to "COO, Fashion Silhouettes", make visuals for posts 1 and 2',{blk:'30 min',kind:'once',sk:'li-prep',h:.5});
+LIVE.forEach((p,k)=>{
+  p.n=k+1; p.wk=Math.floor(k/2)+1;
+  add(p.d,'li',`Post ${p.n}: ${p.t}`,{blk:(p.wk===3?'6:00 PM PKT (time test)':'9:00 AM PKT')+' · 30 min incl. replies',kind:'post',post:p.i,pillar:p.p,sk:'li-post',h:.5});
+  p.id=T[T.length-1].id;
+});
+['2026-11-13','2026-11-20','2026-11-27'].forEach(d=>add(d,'li','Inside the post block: 10 connection requests and a 10-min Friday review',{blk:'Inside the 30 min',kind:'review',sk:'li-conn',h:0}));
+add('2026-12-06','li','Log end metrics and compare with the start',{blk:'10 min',kind:'review',sk:'li-end',h:0});
+
+/* milestones */
+const MS={
+  '2026-11-04':'Kickoff',
+  '2026-11-05':'PFJ-001 live',
+  '2026-11-09':'LinkedIn starts',
+  '2026-11-13':'FS company profile ready',
+  '2026-11-10':'Taankay teasers start',
+  '2026-11-21':'Taankay launch',
+  '2026-11-23':'FS website live',
+  '2026-11-24':'FQZ-001 live',
+  '2026-12-03':'Vest + bundle live',
+  '2026-12-04':'Month review',
+  '2026-12-06':'LinkedIn wrap'
+};
+
+/* weekly checklists: Taankay + FS */
+const WK=[
+ {n:1,s:'2026-11-04',e:'2026-11-10',r:'4 to 10 Nov',t:'Foundations',sub:'Taankay builds its E-stitching system. FS fixes the basics every corporate buyer checks first.',
+  tk:['Register taankay.com and claim @taankay.pk; set the bio, ٹ profile icon and highlight covers, then schedule IG 1 to 3 (10, 12, 14 Nov)','Write the mid-range price list: kurta, 2-piece, 3-piece, formal, plus alterations, each with turnaround days','Build the size chart: S, M, L, XL in inches, plus the custom naap form (Google Form)','Map the E-stitching flow: order > Bykea or rep pickup > stitch at FS > courier > cash on delivery','Get courier COD rates and payout days from 2 couriers (e.g. Leopards, PostEx, TCS) and pick one','Set up WhatsApp Business: catalogue, greeting, quick replies for price, sizes, pickup and COD'],
+  fs:['Fix the domain: "fashion_silhouettes.com" can\'t work (domains can\'t contain underscores); register fashionsilhouettes.pk or .com','Set up email on the domain: info@, sales@ and sameem@, with a signature in the brand style','Write the company core: one-line positioning, About paragraph, 4 values, used word for word on every channel','Capacity audit: machines by type, operators, pieces per day for dress shirts, shalwar qameez, bridal','Costing sheet for the 3 core products (CMT and full-package price)','Finish clearing old Instagram posts; set bio and highlight covers (Capabilities, Process, QC, MOQ & Terms, Contact)'],
+  shoot:'10 process clips at the unit (cutting, stitching, pressing, QC) for both brands'},
+ {n:2,s:'2026-11-11',e:'2026-11-17',r:'11 to 17 Nov',t:'Build the launch',sub:'Taankay batches its launch and trust kit. FS builds the documents and profiles that make it look established.',
+  tk:['Build the trust kit: fabric receipt with order ID at pickup, WhatsApp updates at each stage, sealed Taankay pouch','Write the Taankay promise for every post: "Pay only when it reaches you. Free fitting fix within 7 days."','Pick the recurring face for reels and film 3 reels in one sitting (pickup, unit, doorstep)','Batch IG posts 4 to 9 (17 to 28 Nov) on Wednesday and schedule them in Meta Business Suite','Set the Roman Urdu bio and trust line: "Stitched in-house at Fashion Silhouettes, Lahore · COD"','Line up 5 friends for first orders at an intro price to test the full flow'],
+  fs:['Company profile deck, 8 to 10 pages: about, leadership, products, machines, capacity, QC, process, terms, contact','One-page MOQ, terms and pricing sheet: sampling fee, advance, lead times, payment terms','Corporate shoot at the unit: floor, machines, team in branded aprons, QC table, packing','LinkedIn company page and a Google Business Profile for the unit, both using the company core','Business cards and a branded quotation template from the stationery kit','Start the lead sheet: 40 Pakistani D2C brands that fit (handle, email, product match)'],
+  shoot:'FS corporate shoot plus the Taankay fabric journey'},
+ {n:3,s:'2026-11-18',e:'2026-11-24',r:'18 to 24 Nov',t:'Launch and outreach',sub:'Taankay goes live on 21 Nov. FS launches its website and sends its first 20 pitches from sales@.',
+  tk:['Unit reel 19 Nov, launch reel 21 Nov (pin it, set up highlights), How E-stitching works 24 Nov','taankay.com live as one page: how it works, prices, size chart, WhatsApp order button','Run the 5 friend orders end to end: Bykea pickup, stitch, courier, COD; log days from pickup to delivery','Reply to every DM the same day; DM 10 uni-girl creators in Lahore and sign 1','Pitch 2 partners: a fabric store and a photographer'],
+  fs:['One-page website live: capabilities, process, QC, company profile download, RFQ contact form','Outreach batch 1: 20 brands from sales@, company profile and MOQ sheet attached','Follow up on WhatsApp or DM after 3 days; book 3 calls or unit visits','Visitor-ready unit: logo signage at the entrance, production board, clean sample rack','Post pinned "What is Fashion Silhouettes?" plus 2 factory reels'],
+  shoot:'Finished fits for Our Work, a Taankay unboxing, a shaadi-season reel'},
+ {n:4,s:'2026-11-25',e:'2026-12-04',r:'25 Nov to 4 Dec',t:'Orders and first deal',sub:'Convert attention into orders, put the FS client process on paper, then review the month.',
+  tk:['IG 8 to 12: trust reel 26 Nov, prices 28 Nov, meme 1 Dec, first deliveries 3 Dec, shaadi push 5 Dec','First creator collab post goes live','Close orders 6 to 10 from DMs, referrals and the website','Build-in-public post: "10 outfits picked up and delivered across Lahore"','Write the 6-month order ladder into December goals: 10 > 25 > 50 > 100 a month'],
+  fs:['Outreach batch 2: the other 20 brands','Client process pack: RFQ form, quote within 48 hours, sampling policy, QC checklist, order tracker','Make samples for the 2 warmest leads and send a formal quote on the template','Confirm 1 trial order with an e-invoice from the stationery kit','Decide on NTN registration: most brands ask for it when onboarding a vendor','Post a "pieces made this month" number on LinkedIn and Instagram'],
+  shoot:'Month review on 4 Dec: compare against the tracker, keep what worked, set December goals'}
+];
+/* step-by-step for the weekly Taankay and FS checklists */
+const WKS=[
+ {tks:[[`Buy taankay.com at a registrar`,`Claim @taankay.pk on Instagram and TikTok, switch to Business`,`Do the Taankay setup list in the Instagram tab`,`Schedule IG 1 to 3 in Meta Business Suite`],
+  [`List garments: kurta, 2-piece, 3-piece, formal, alterations`,`Cost each: CMT, pickup, courier, COD fee`,`Price above local tailors and below boutiques`,`Add turnaround days per item`],
+  [`Take S to XL measurements in inches from the FS blocks`,`Design the chart in Canva in brand colours`,`Build the naap Google Form: bust, waist, hip, shoulder, sleeve, length`,`Test it on 2 friends`],
+  [`Write each step: order, pickup, receipt, stitch, QC, pack, courier, COD`,`Name who does each step and how long it takes`,`Write the WhatsApp message for each stage`],
+  [`Ask Leopards, PostEx and TCS for COD rates and payout days`,`Compare cost per parcel and payout speed`,`Pick one and open the account`],
+  [`Install WhatsApp Business on the Taankay number`,`Add catalogue items with prices`,`Set greeting and away messages`,`Save quick replies for price, sizes, pickup and COD`]],
+  fss:[[`Search fashionsilhouettes.pk and .com`,`Buy one`,`Plan to retire the old info@ address`],
+  [`Set up Google Workspace or Zoho on the domain`,`Create info@, sales@ and sameem@`,`Add the signature from the stationery kit`],
+  [`Write the one-line positioning`,`Write a 60-word About paragraph`,`Pick 4 values`,`Save in one doc and reuse word for word`],
+  [`Count machines by type`,`Count operators and shifts`,`Time pieces per day for each product`,`Put it in one table`],
+  [`List fabric, trims, CMT and overhead per product`,`Price CMT and full package`,`Add the margin and round off`],
+  [`Do the FS setup list in the Instagram tab`,`Make the 5 highlight covers`]]},
+ {tks:[[`Design the fabric receipt with order ID in Canva`,`Write the 5 WhatsApp stage messages`,`Order sealed Taankay pouches`],
+  [`Add the promise to the caption template`,`Add it to the WhatsApp greeting and the website`],
+  [`Pick the presenter`,`Write the 3 reel scripts`,`Film all 3 in one sitting at the unit`],
+  [`Edit reels in CapCut`,`Design carousels in Canva`,`Paste captions and schedule in Meta Business Suite`],
+  [`Check the bio matches the Instagram tab`,`Make sure every scheduled caption ends with the trust line`],
+  [`Message 5 friends with the intro price`,`Book their pickups for 18 to 22 Nov`,`Ask each for a review and a fit photo`]],
+  fss:[[`Outline 10 pages`,`Drop in the corporate shoot photos`,`Design in the brand style`,`Export a PDF under 5 MB`],
+  [`Set MOQ per style and colour`,`Add sampling fee, advance, lead times, payment terms`,`Keep it to one page, PDF`],
+  [`Brief the team; branded aprons on`,`Shoot floor, machines, QC table, packing, team portraits`,`Back up and pick the best 30`],
+  [`LinkedIn company page with the company core`,`Google Business Profile with address and photos`,`Request verification`],
+  [`Fill contact details in the stationery kit`,`Order 200 cards`,`Save the quote template with your details`],
+  [`Search Instagram for Pakistani D2C labels in your categories`,`Log handle, email and product match`,`Reach 40 rows`]]},
+ {tks:[[`Check IG 5, 6 and 7 are scheduled`,`Launch day: pin the reel, add highlights, DM the Founding 50`],
+  [`Build one page on Carrd, Framer or Shopify`,`Sections: how it works, prices, size chart, WhatsApp button`,`Connect taankay.com`],
+  [`Book Bykea pickups and hand over receipts`,`Stitch, QC, pack in the pouch, courier COD`,`Log days from pickup to delivery`],
+  [`Reply to every DM the same day`,`List 10 Lahore uni-girl fashion creators`,`Offer each a free outfit for a collab post`,`Sign 1`],
+  [`Pitch a fabric store: pick your fabric there, we stitch it`,`Pitch a photographer for a shoot swap`,`Agree on one collab post each`]],
+  fss:[[`One page: capabilities, process, QC, profile download, RFQ form`,`Connect the domain`,`Test the form reaches sales@`],
+  [`Pick 20 brands from the lead sheet`,`Send the pitch from sales@ with the profile and MOQ sheet`,`Log the date sent`],
+  [`After 3 days, WhatsApp or DM anyone who has not replied`,`Offer a call or unit visit`,`Book 3`],
+  [`Logo signage at the entrance`,`Set up the production board`,`Sample rack with labelled samples`],
+  [`FS IG 1 to 3 are in the Instagram tab`,`Pin "What is Fashion Silhouettes?" when it goes live`]]},
+ {tks:[[`Check IG 8 to 12 are scheduled`,`Fill prices and numbers before each goes live`],
+  [`Stitch the creator outfit`,`Agree the caption and collab tag`,`Post as a Collab post on both profiles`],
+  [`Follow up every DM enquiry`,`Offer a shaadi-season slot`,`Confirm and book pickups`],
+  [`Count outfits delivered`,`Use the number in stories and IG 11`],
+  [`Write 10 > 25 > 50 > 100 into December goals`,`Note what must change to reach 25 in January`]],
+  fss:[[`Send to the remaining 20 brands`,`Follow up after 3 days`],
+  [`RFQ form`,`Quote template with the 48-hour promise`,`Sampling policy`,`QC checklist`,`Order tracker sheet`],
+  [`Agree specs with the 2 warmest leads`,`Make the samples`,`Send a formal quote on the template`],
+  [`Confirm the order and the advance`,`Send the e-invoice from the kit`,`Add it to the production board`],
+  [`Check FBR IRIS registration steps`,`Ask 2 leads whether they need an NTN`,`Decide and note it`],
+  [`Count pieces made this month`,`Post it on LinkedIn and as FS IG 6`]]}
+];
+WK.forEach((w,i)=>Object.assign(w,WKS[i]));
+/* Bündle weeks */
+const BW=[
+ {n:1,s:'2026-11-05',e:'2026-11-12',r:'5 to 12 Nov',g:'Close out the puffer, start the quarter-zip',c:'PFJ + FQZ',pr:'PFJ-001: $28 full · $28 Canva · $12 mini · $8 flat',note:'Publish PFJ-001 on Thursday, drip its flat, mini and Canva, then spec and flat the quarter-zip.',once:'Finish the 13 Instagram settings in BRAND-032 (Sunday, 10 min).'},
+ {n:2,s:'2026-11-13',e:'2026-11-19',r:'13 to 19 Nov',g:'Quarter-zip pages',c:'FQZ-001',pr:'$24 full · $24 Canva · $12 mini · $8 flat',note:'Pages 4 to 12, then the Thursday audit and editions.',once:'Quilted liner jacket (QLJ-001) moves to December.'},
+ {n:3,s:'2026-11-20',e:'2026-11-26',r:'20 to 26 Nov',g:'Publish the quarter-zip, start the vest',c:'FQZ + PFV',pr:'FQZ-001 full goes live Tue 24 Nov at $24',note:'Start the vest from the PFJ-001 files: drop sleeves, add armhole binding.',once:'Wide-leg sweatpants (SWP-001) move to December.'},
+ {n:4,s:'2026-11-27',e:'2026-12-03',r:'27 Nov to 3 Dec',g:'Puffer vest and winter bundle',c:'PFV-001',pr:'$24 full · $24 Canva · $12 mini · $8 flat',note:'Thursday publishes the vest and the winter outerwear bundle (puffer, quarter-zip, vest), about 20% below the three packs.',once:'The vest\'s flat, mini and Canva go live in December.'}
+];
+const GOALS={
+  tk:['All 12 launch posts live on Instagram (Tue, Thu, Sat) and taankay.com live','10 paid COD orders, picked up and delivered on time across Lahore','E-stitching system running: price list, size chart, Bykea pickup, courier COD','1 creator partner signed'],
+  fs:['Corporate kit live: domain email, website, LinkedIn company page, Google Business Profile','Company profile deck, MOQ and terms sheet, costing for 3 core products','40 brands contacted from sales@, 3 calls or unit visits, every quote sent within 48 hours','1 trial or sample order confirmed on a formal quote and e-invoice']
+};
+const METRICS=[
+ {id:'tk_posts',b:'tk',l:'Taankay: feed posts published',t:12,agg:'sum'},
+ {id:'tk_dm',b:'tk',l:'Taankay: DM and website enquiries',t:40,agg:'sum'},
+ {id:'tk_orders',b:'tk',l:'Taankay: paid COD orders',t:10,agg:'sum'},
+ {id:'tk_ontime',b:'tk',l:'Taankay: on-time deliveries',t:100,agg:'pct',u:'%'},
+ {id:'tk_fol',b:'tk',l:'Taankay: followers',t:300,agg:'last'},
+ {id:'fs_cont',b:'fs',l:'FS: brands contacted',t:40,agg:'sum'},
+ {id:'fs_rep',b:'fs',l:'FS: replies',t:8,agg:'sum'},
+ {id:'fs_calls',b:'fs',l:'FS: calls or visits',t:3,agg:'sum'},
+ {id:'fs_quote',b:'fs',l:'FS: quotes sent within 48 hrs',t:5,agg:'sum'},
+ {id:'fs_trial',b:'fs',l:'FS: trial orders',t:1,agg:'sum'}
+];
+const LIMETRICS=[['fol','Followers','+10%'],['pv','Profile views (weekly)','2x start'],['imp','Avg. impressions per post','Up week on week'],['com','Comments per post','5+'],['fsl','Fashion Silhouettes leads','3+'],['tkb','Taankay bookings from LinkedIn','3+'],['bdi','Bündle.co inquiries','2+']];
+const FILL=['Post 2: Fashion Silhouettes MOQ, website and sales@ address','Posts 4 and 7: Taankay turnaround time','Post 3: Bündle.co new scope and service','Post 8: recap details from the month\'s results'];
+
+/* ---------- state ---------- */
+const LS='sameem-30day-v1';
+function blank(){return {done:{},notes:{},tr:{},lim:{}}}
+function load(){try{return Object.assign(blank(),JSON.parse(localStorage.getItem(LS)||'{}'))}catch(e){return blank()}}
+const S=load();
+function save(){try{localStorage.setItem(LS,JSON.stringify(S))}catch(e){}}
+function getPref(k,d){try{return localStorage.getItem(k)||d}catch(e){return d}}
+function setPref(k,v){try{localStorage.setItem(k,v)}catch(e){}}
+const realToday=key(new Date());
+const clamp=d=>d<START?START:d>END?END:d;
+const ui={tab:getPref('s30-tab','today'),sel:clamp(realToday),f:new Set(ORDER)};
+const theme=getPref('s30-theme','');
+if(theme) document.documentElement.dataset.theme=theme;
+
+/* ---------- small renderers ---------- */
+const isDone=id=>!!S.done[id];
+function taskHTML(t,o={}){
+  const b=t.b; const d=isDone(t.id);
+  const meta=[];
+  if(o.date) meta.push(fmt(t.d,{weekday:'short',day:'numeric',month:'short'}));
+  if(t.blk) meta.push(esc(t.blk));
+  if(t.kind==='review'&&t.b!=='li') meta.push('<button class="linkbtn" data-go="tracker">Open tracker</button>');
+  let h=`<label class="task c-${b} ${d?'done':''}"><input type="checkbox" data-id="${t.id}" ${d?'checked':''}><span class="tick"></span><span class="t-body"><span class="t-txt">${mk(t.txt)}</span>${meta.length?`<span class="t-meta">${meta.join('<span>·</span>')}</span>`:''}</span></label>`;
+  if(t.kind==='post'&&t.post!==undefined&&!o.noCap){
+    const p=POSTS[t.post];
+    h+=`<details class="cap"><summary>View caption · ${esc(p.f)}</summary><div class="capbox"><pre>${mk(p.c)}</pre><div class="small" style="color:var(--li)">${esc(p.h)}</div><div class="small muted" style="margin:6px 0 10px">Visual: ${esc(p.v)}</div><button class="btn dark" data-copy="${t.post}">Copy caption</button></div></details>`;
+  }
+  if(t.kind==='igpost'&&!o.noCap){
+    const p=IGC[t.cb][t.ci],cf=IGB[t.cb];
+    h+=`<details class="cap" style="--li:var(--${t.cb})"><summary>View caption · ${esc(p.ph)}</summary><div class="capbox"><div class="small" style="margin-bottom:6px"><b>Hook:</b> ${esc(p.hook)}</div><pre>${mk(p.c)}\n\n${esc(cf.trust)}</pre><div class="small" style="color:var(--${t.cb})">${esc(cf.tags)}</div><div class="small muted" style="margin:6px 0 10px">Visual: ${esc(p.v)}</div><button class="btn dark" data-igcopy="${t.cb}:${t.ci}">Copy caption</button></div></details>`;
+  }
+  const st=STEPS[t.sk]||(t.kind==='igpost'?igSteps(t.cb,IGC[t.cb][t.ci]):null);
+  if(st&&!o.noSteps) h+=stepsHTML(st,t.id,b);
+  return h;
+}
+function stepsHTML(st,k,b){return `<details class="steps c-${b||'li'}" data-k="st-${k}"><summary>Step by step · ${st.length}</summary><ol>${st.map(s=>`<li>${mk(s)}</li>`).join('')}</ol></details>`}
+function checkHTML(id,txt,b,st){const d=isDone(id);return `<label class="task c-${b} ${d?'done':''}"><input type="checkbox" data-id="${id}" ${d?'checked':''}><span class="tick"></span><span class="t-body"><span class="t-txt">${mk(txt)}</span></span></label>`+(st&&st.length?stepsHTML(st,id,b):'')}
+function bar(b,label,done,total,extra=''){const p=total?Math.min(100,Math.round(done/total*100)):0;return `<div class="bar-row c-${b}"><span>${label}</span><span class="muted">${extra||`${done}/${total}`}</span><div class="track"><i class="bgc" style="width:${p}%"></i></div></div>`}
+const metricCount=m=>T.filter(t=>t.m===m&&isDone(t.id)).length;
+const packCount=()=>T.filter(t=>t.full&&isDone(t.id)).length;
+
+/* ---------- hero ---------- */
+function renderHero(){
+  const done=T.filter(t=>isDone(t.id)).length, pct=Math.round(done/T.length*100);
+  const dayN=Math.max(1,Math.min(31,diff(realToday,START)+1));
+  const left=Math.max(0,diff(REVIEW,realToday));
+  const h=new Date().getHours();
+  const greet=h<12?'Good morning':h<17?'Good afternoon':'Good evening';
+  const todayCount=T.filter(t=>t.d===clamp(realToday)).reduce((a,t)=>a+(t.h||0),0);
+  const next=Object.entries(MS).find(([d])=>d>realToday);
+  const C=2*Math.PI*50;
+  document.getElementById('hero').innerHTML=`
+  <div class="card hello"><div class="blob"></div>
+    <div class="muted small" style="font-weight:600;letter-spacing:.06em;text-transform:uppercase">4 Nov to 6 Dec 2026</div>
+    <h1 style="margin-top:6px">${greet}, Sameem.<br>Spec, scale, <em>stitch.</em></h1>
+    <p class="muted">One plan for Taankay, Fashion Silhouettes, Bündle.co and LinkedIn, sized to 2.5 hrs on weekdays and 3.5 hrs on weekends.</p>
+    <div class="stats">
+      <div class="stat"><div class="n">Day ${realToday<START?0:dayN}</div><div class="l">of 31</div></div>
+      <div class="stat"><div class="n">${left}</div><div class="l">days to review</div></div>
+      <div class="stat"><div class="n">${todayCount}h</div><div class="l">planned today</div></div>
+      <div class="stat"><div class="n">19.5h</div><div class="l">a week, all brands</div></div>
+      ${next?`<div class="stat"><div class="n" style="font-size:18px;padding-top:4px">${esc(next[1])}</div><div class="l">next · in ${diff(next[0],realToday)} day${diff(next[0],realToday)===1?'':'s'}</div></div>`:''}
+    </div>
+  </div>
+  <div class="card prog">
+    <div class="ring"><svg width="118" height="118" viewBox="0 0 118 118"><circle cx="59" cy="59" r="50" fill="none" stroke="var(--surface2)" stroke-width="11"/><circle cx="59" cy="59" r="50" fill="none" stroke="var(--ink)" stroke-width="11" stroke-linecap="round" stroke-dasharray="${C}" stroke-dashoffset="${C*(1-pct/100)}" style="transition:stroke-dashoffset .5s"/></svg><div class="v"><div><b>${pct}%</b><span>${done} of ${T.length}</span></div></div></div>
+    <div class="bars">${ORDER.map(b=>{const a=T.filter(t=>t.b===b);return bar(b,`<span class="dot bgc c-${b}" style="margin-right:6px"></span>${BR[b].n}`,a.filter(t=>isDone(t.id)).length,a.length)}).join('')}</div>
+  </div>`;
+}
+
+/* ---------- chips & tabs ---------- */
+function renderChips(){
+  const show=['today','calendar'].includes(ui.tab);
+  document.getElementById('chips').innerHTML=show?ORDER.map(b=>`<button class="chip c-${b} ${ui.f.has(b)?'':'off'}" data-f="${b}"><span class="dot bgc"></span>${BR[b].n}</button>`).join(''):'';
+  document.querySelectorAll('.tab').forEach(x=>x.classList.toggle('on',x.dataset.tab===ui.tab));
+}
+
+/* ---------- views ---------- */
+function weekOf(list,d){return list.find(w=>d>=w.s&&d<=w.e)}
+function vToday(){
+  const d=ui.sel, items=T.filter(t=>t.d===d&&ui.f.has(t.b));
+  const groups=ORDER.filter(b=>ui.f.has(b)).map(b=>[b,items.filter(t=>t.b===b)]).filter(g=>g[1].length);
+  const w=weekOf(WK,d), bw=weekOf(BW,d);
+  const dn=diff(d,START)+1;
+  const isT=d===realToday;
+  const habits=[];
+  const hrs=T.filter(t=>t.d===d).reduce((a,t)=>a+(t.h||0),0);
+  if(d>='2026-11-11'&&d<=REVIEW) habits.push(['Taankay DMs: quick replies the same day (5 min)','tk']);
+  if(d>='2026-11-18'&&d<=REVIEW) habits.push(['FS: answer every sales@ email and RFQ within 24 hours','fs']);
+  habits.push(['Stop when the block ends; leftovers go to that brand\'s next block','fs']);
+  return `<div class="today view">
+   <div class="card">
+    <div class="daybar">
+      <button class="icon-btn" data-nav="-1" aria-label="Previous day" ${d<=START?'disabled style="opacity:.4"':''}>‹</button>
+      <h2>${fmt(d,{weekday:'long',day:'numeric',month:'long'})}<span class="sub">Day ${dn} of the plan${hrs?` · <b style="color:var(--ink)">${hrs} of ${BUDGET(d)} hrs</b>`:''}${isT?' · Today':''}${MS[d]?` · <span style="color:var(--gold)">${esc(MS[d])}</span>`:''}</span></h2>
+      ${!isT&&realToday>=START&&realToday<=END?'<button class="btn" data-nav="today">Today</button>':''}
+      <button class="icon-btn" data-nav="1" aria-label="Next day" ${d>=END?'disabled style="opacity:.4"':''}>›</button>
+    </div>
+    ${groups.length?groups.map(([b,list])=>`<div class="group"><div class="g-h c-${b}"><span class="dot bgc"></span>${BR[b].n}<span class="cnt">${list.filter(t=>isDone(t.id)).length}/${list.length} done</span></div>${list.map(t=>taskHTML(t)).join('')}</div>`).join(''):`<div class="empty">Nothing scheduled here${ui.f.size<4?' for the selected brands':''}. Rest, or get ahead on the week list.</div>`}
+   </div>
+   <div class="side">
+    ${w?`<div class="card"><div class="muted small" style="font-weight:600">TAANKAY + FS · WEEK ${w.n} · ${w.r.toUpperCase()}</div><h3 style="margin-top:4px">${w.t}</h3><p class="muted small" style="margin:2px 0 8px">${w.sub}</p>
+      <div class="mini-list">${w.tk.map((x,i)=>ui.f.has('tk')?checkHTML(`wk${w.n}-tk-${i}`,x,'tk',(w.tks||[])[i]):'').join('')}${w.fs.map((x,i)=>ui.f.has('fs')?checkHTML(`wk${w.n}-fs-${i}`,x,'fs',(w.fss||[])[i]):'').join('')}</div></div>`:''}
+    ${bw?`<div class="card c-bd"><div class="muted small" style="font-weight:600">BÜNDLE.CO · WEEK ${bw.n} · ${bw.r.toUpperCase()}</div><h3 style="margin-top:4px">${bw.g} <span class="pill">${bw.c}</span></h3><p class="muted small" style="margin:4px 0 0">${bw.pr}</p><p class="small" style="margin:6px 0 0">${bw.note}</p></div>`:''}
+    <div class="card"><h3>Daily habits</h3><div class="mini-list">${habits.map((h,i)=>checkHTML(`hab-${d}-${i}`,h[0],h[1])).join('')}</div></div>
+    <div class="card"><h3>Notes for the day</h3><p class="muted small" style="margin:0 0 8px">Wins, blockers, leads to chase.</p><textarea data-note="${d}" placeholder="Type here, it saves automatically.">${esc(S.notes[d]||'')}</textarea></div>
+   </div>
+  </div>`;
+}
+function vCalendar(){
+  const first='2026-11-02'; const days=[];
+  for(let i=0;i<35;i++) days.push(addDays(first,i));
+  return `<div class="view">
+   <div class="sec-h"><div><h2>The month at a glance</h2><div class="muted small">Tap any day to open it.</div></div>
+   <div class="legend">${ORDER.map(b=>`<span><span class="dot bgc c-${b}"></span> ${BR[b].n}</span>`).join('')}</div></div>
+   <div class="cal-head">${['Mon','Tue','Wed','Thu','Fri','Sat','Sun'].map(x=>`<div>${x}</div>`).join('')}</div>
+   <div class="cal">${days.map(d=>{
+     const inR=d>=START&&d<=END;
+     const items=T.filter(t=>t.d===d&&ui.f.has(t.b));
+     const done=items.filter(t=>isDone(t.id)).length;
+     const show=[...items].sort((a,b)=>rank(a)-rank(b)).slice(0,4);
+     return `<button class="cell ${inR?'':'out'} ${d===realToday?'is-today':''}" data-day="${d}">
+      <div class="num"><span>${parse(d).getDate()}${parse(d).getDate()===1||d===first?' '+fmt(d,{month:'short'}):''}<span class="wd">${fmt(d,{weekday:'long'})}</span></span>${items.length?`<span class="muted" style="font-weight:500;font-size:11px">${T.filter(t=>t.d===d).reduce((a,t)=>a+(t.h||0),0)||''}${T.filter(t=>t.d===d).some(t=>t.h)?'h · ':''}${done}/${items.length}</span>`:''}</div>
+      ${MS[d]?`<span class="ms">★ ${esc(MS[d])}</span>`:''}
+      ${show.map(t=>`<div class="ln c-${t.b} ${isDone(t.id)?'done':''}"><span class="dot bgc"></span><span>${esc(short(t))}</span></div>`).join('')}
+      ${items.length>4?`<div class="more">+${items.length-4} more</div>`:''}
+      ${items.length?`<div class="track"><i class="bgc" style="--c:var(--ink);width:${Math.round(done/items.length*100)}%"></i></div>`:''}
+     </button>`}).join('')}</div>
+  </div>`;
+}
+function rank(t){return {launch:0,igpost:1,post:1,shoot:2,build:3,live:4,ig:5,block:6,review:7,once:8,clo:9,engage:10}[t.kind]??11}
+function short(t){
+  if(t.kind==='post'&&t.post!==undefined) return 'LI post '+POSTS[t.post].n+': '+POSTS[t.post].t;
+  if(t.kind==='live') return t.txt.replace('Goes live on Etsy: ','Live: ');
+  if(t.kind==='igpost') return 'IG: '+IGC[t.cb][t.ci].t;
+  if(t.kind==='shoot') return 'Saturday shoot';
+  if(t.kind==='clo') return 'CLO 3D · 1 hr';
+  return t.txt;
+}
+function vGoals(){
+  const lis=T.filter(t=>t.m==='listing'), igs=T.filter(t=>t.m==='ig');
+  return `<div class="view">
+   <div class="sec-h"><div><h2>Goals by 4 December</h2><div class="muted small">Every target here is something you control.</div></div></div>
+   <div class="grid3">
+    <div class="card goal c-tk"><span class="pill">B2C</span><h3 style="margin-top:8px">Taankay</h3><p class="stmt">Launch E-stitching into shaadi season with 10 paid COD orders.</p>${GOALS.tk.map((x,i)=>checkHTML('goal-tk-'+i,x,'tk')).join('')}</div>
+    <div class="card goal c-fs"><span class="pill">B2B</span><h3 style="margin-top:8px">Fashion Silhouettes</h3><p class="stmt">Look and run like a corporate manufacturer, then land the first trial order.</p>${GOALS.fs.map((x,i)=>checkHTML('goal-fs-'+i,x,'fs')).join('')}</div>
+    <div class="card goal c-bd"><span class="pill">Etsy</span><h3 style="margin-top:8px">Bündle.co</h3><p class="stmt">Close out the puffer, ship the quarter-zip and the vest, launch the winter bundle. Bars fill as you tick the daily tasks.</p>
+      <div class="out-row">${bar('bd','Full tech packs published',packCount(),3)}</div>
+      <div class="out-row">${bar('bd','Etsy listings added',metricCount('listing'),lis.length)}</div>
+      <div class="out-row">${bar('bd','Instagram posts',metricCount('ig'),igs.length)}</div>
+      <div class="out-row">${bar('bd','Weekly reviews logged',metricCount('review'),4)}</div>
+      <p class="note" style="margin:10px 0 0">Moved to December: QLJ-001, SWP-001 and CLO 3D practice.</p>
+    </div>
+   </div>
+   <div class="grid2" style="margin-top:16px">
+    <div class="card pad c-tk"><h3 style="font-size:20px">How Taankay E-stitching works</h3><p class="muted small" style="margin:4px 0 0">Lahore only · mid-range · stitching and alterations</p>
+     <div class="flow">
+      <div><b>1</b>Order on WhatsApp or taankay.com, pick S to XL or custom</div>
+      <div><b>2</b>Rider or Bykea collects the fabric, receipt with order ID</div>
+      <div><b>3</b>Stitched and checked at the FS unit</div>
+      <div><b>4</b>Packed in the Taankay pouch, sent by courier</div>
+      <div><b>5</b>Cash on delivery, free fitting fix within 7 days</div>
+     </div>
+     <p class="muted small" style="margin:14px 0 0">Order ladder to the 6-month goal</p>
+     <div class="ladder"><div><b>10</b>Dec 2026</div><div><b>25</b>Jan 2027</div><div><b>50</b>Mar 2027</div><div><b>100</b>May 2027</div></div>
+    </div>
+    <div class="card pad c-fs"><h3 style="font-size:20px">Fashion Silhouettes corporate checklist</h3><p class="muted small" style="margin:4px 0 6px">What a brand checks before trusting a manufacturer.</p>
+     ${[['Identity','Domain, branded email, signatures, business cards'],['Proof','Company profile, corporate photos, factory video, case study'],['Presence','Website with RFQ form, LinkedIn company page, Google Business Profile'],['Process','48-hour quotes, sampling policy, QC checklist, order tracker, e-invoices'],['Premises','Signage, production board, sample rack, team in branded aprons']].map(([a,b])=>`<div class="slot" style="grid-template-columns:86px 1fr"><b>${a}</b><span>${b}</span></div>`).join('')}
+    </div>
+   </div>
+   <div class="grid2" style="margin-top:16px">
+    <div class="card pad"><h3 style="font-size:20px">Daily hour budget</h3><p class="muted small" style="margin:4px 0 0">19.5 hrs a week: 2.5 on weekdays, 3.5 on Saturday and Sunday.</p>
+     <div class="sched">
+      <div class="slot"><b>Mon</b><span><span class="dot bgc c-fs"></span> FS corporate setup, outreach, follow-ups 2h · <span class="dot bgc c-li"></span> LinkedIn post 30m</span><span class="pill">2.5 h</span></div>
+      <div class="slot"><b>Tue</b><span><span class="dot bgc c-bd"></span> Bündle.co build 2h · Instagram 30m</span><span class="pill">2.5 h</span></div>
+      <div class="slot"><b>Wed</b><span><span class="dot bgc c-tk"></span> Taankay content, captions and scheduling</span><span class="pill">2.5 h</span></div>
+      <div class="slot"><b>Thu</b><span><span class="dot bgc c-bd"></span> Bündle.co build or publish</span><span class="pill">2.5 h</span></div>
+      <div class="slot"><b>Fri</b><span><span class="dot bgc c-fs"></span> FS documents, decks, quotes 2h · <span class="dot bgc c-li"></span> LinkedIn post 30m</span><span class="pill">2.5 h</span></div>
+      <div class="slot"><b>Sat</b><span><span class="dot bgc c-tk"></span> At the unit: shoot for both 2h · <span class="dot bgc c-fs"></span> unit walk 1.5h</span><span class="pill">3.5 h</span></div>
+      <div class="slot"><b>Sun</b><span><span class="dot bgc c-bd"></span> Bündle.co build 2h · <span class="dot bgc c-tk"></span> Taankay DMs and pickups 1h · review 30m</span><span class="pill">3.5 h</span></div>
+     </div>
+    </div>
+    <div class="card pad"><h3 style="font-size:20px">Where the 19.5 hours go</h3><p class="muted small" style="margin:4px 0 10px">Per week. Taankay and FS keep their goals; Bündle.co and LinkedIn are trimmed to fit.</p>
+     <div style="display:grid;gap:11px">
+      ${bar('bd','Bündle.co',7,19.5,'7 hrs')}
+      ${bar('tk','Taankay (incl. weekly review)',6,19.5,'6 hrs')}
+      ${bar('fs','Fashion Silhouettes',5.5,19.5,'5.5 hrs')}
+      ${bar('li','LinkedIn',1,19.5,'1 hr')}
+     </div>
+     <ul class="rules"><li>Stop when the block ends; leftovers go to that brand's next block.</li><li>One Saturday shoot feeds a full week of posts for Taankay and FS.</li><li>FS speaks as a company: "we", the company core word for word, and every quote on the template.</li><li>Exam or submission week: Taankay 3 scheduled posts, FS follow-ups, Bündle.co Thursday only, LinkedIn Monday only. Never zero.</li><li>Moved to December: QLJ-001, SWP-001, CLO 3D practice and 4 LinkedIn posts.</li></ul>
+    </div>
+   </div>
+   <div class="sec-h" style="margin-top:28px"><h2>Week by week</h2></div>
+   ${WK.map(w=>{const bw=BW[w.n-1];const ids=[...w.tk.map((_,i)=>`wk${w.n}-tk-${i}`),...w.fs.map((_,i)=>`wk${w.n}-fs-${i}`)];const dn=ids.filter(isDone).length;const cur=(realToday>=w.s&&realToday<=w.e)||(w.n===1&&realToday<w.s);
+   return `<details class="card wk" ${cur?'open':''}><summary><span class="pill" style="--c:var(--ink)">Week ${w.n}</span><h3>${w.t} <span class="muted" style="font-family:Inter;font-size:14px;font-weight:500">· ${w.r}</span></h3><span class="muted small">${dn}/${ids.length} done</span><span class="chev">›</span></summary>
+    <div class="wk-body">
+     <div class="col c-tk"><h4><span class="dot bgc"></span>Taankay</h4>${w.tk.map((x,i)=>checkHTML(`wk${w.n}-tk-${i}`,x,'tk',(w.tks||[])[i])).join('')}</div>
+     <div class="col c-fs"><h4><span class="dot bgc"></span>Fashion Silhouettes</h4>${w.fs.map((x,i)=>checkHTML(`wk${w.n}-fs-${i}`,x,'fs',(w.fss||[])[i])).join('')}<p class="note"><b>${w.n===4?'Closing':'Saturday shoot'}:</b> ${esc(w.shoot)}</p></div>
+     <div class="col c-bd"><h4><span class="dot bgc"></span>Bündle.co · ${bw.c}</h4><p class="note" style="margin-top:0"><b>${bw.g}</b> · ${bw.r}</p><p class="note">${bw.pr}</p><p class="note">${esc(bw.note)}</p><p class="note"><b>One-time:</b> ${esc(bw.once)}</p><p class="note"><button class="linkbtn" data-day="${bw.s}" style="--c:var(--bd)">Open week in Today ›</button></p></div>
+    </div></details>`}).join('')}
+  </div>`;
+}
+function weeksFilled(){let n=0;for(let w=1;w<=4;w++){if(METRICS.some(m=>(S.tr[m.id]||{})[w]!==undefined&&(S.tr[m.id]||{})[w]!==''))n=w}return n}
+function mval(m){const v=S.tr[m.id]||{};const nums=[1,2,3,4].map(w=>v[w]).filter(x=>x!==undefined&&x!=='').map(Number);if(!nums.length)return null;return m.agg==='sum'?nums.reduce((a,b)=>a+b,0):nums[nums.length-1]}
+function mstatus(m){
+  const val=mval(m); if(val===null) return '<span class="st na">No data yet</span>';
+  if(m.agg==='pct') return val>=100?'<span class="st ok">On track</span>':'<span class="st mid">Watch it</span>';
+  const wf=weeksFilled()||1; const exp=m.t*wf/4; const r=val/exp;
+  if(val>=m.t) return '<span class="st ok">Target hit</span>';
+  if(r>=1) return '<span class="st ok">On track</span>';
+  if(r>=.5) return '<span class="st mid">A bit behind</span>';
+  return '<span class="st bad">50% behind · next Sat block</span>';
+}
+function vTracker(){
+  return `<div class="view">
+   <div class="sec-h"><div><h2>Weekly tracker</h2><div class="muted small">Fill the week columns each Sunday review. Anything 50% behind target gets the next Saturday block.</div></div></div>
+   <div class="card"><div class="tbl-wrap"><table>
+    <thead><tr><th>Metric</th><th>Target</th><th>Wk 1</th><th>Wk 2</th><th>Wk 3</th><th>Wk 4</th><th>Total</th><th>Status</th></tr></thead>
+    <tbody>${METRICS.map(m=>{const v=S.tr[m.id]||{};const val=mval(m);return `<tr class="c-${m.b}"><td class="m"><span class="dot bgc" style="margin-right:8px"></span>${m.l}</td><td><b>${m.t}${m.u||''}</b></td>${[1,2,3,4].map(w=>`<td><input type="number" min="0" inputmode="numeric" data-tr="${m.id}" data-w="${w}" value="${v[w]??''}" aria-label="${m.l} week ${w}"></td>`).join('')}<td><b>${val===null?'–':val+(m.u||'')}</b></td><td>${mstatus(m)}</td></tr>`}).join('')}</tbody>
+   </table></div><p class="muted small" style="padding:0 18px 14px;margin:0">Followers and on-time % use the latest week; the rest add up.</p></div>
+   <div class="grid2" style="margin-top:16px">
+    <div class="card pad c-bd"><h3 style="font-size:20px">Bündle.co outputs</h3><p class="muted small" style="margin:4px 0 6px">Counted automatically from your ticked tasks.</p>
+      <div class="out-row">${bar('bd','Full tech packs published',packCount(),3)}</div>
+      <div class="out-row">${bar('bd','Flat, mini and Canva listings live',T.filter(t=>t.m==='listing'&&!t.full&&!/bundle/i.test(t.txt)&&isDone(t.id)).length,6)}</div>
+      <div class="out-row">${bar('bd','Winter bundle (Thu 3 Dec)',T.filter(t=>/bundle:/i.test(t.txt)&&isDone(t.id)).length,1)}</div>
+      <div class="out-row">${bar('bd','Instagram posts',metricCount('ig'),4)}</div>
+      <div class="out-row">${bar('bd','Weekly reviews (Sundays)',metricCount('review'),4)}</div>
+    </div>
+    <div class="card c-li"><div class="pad" style="padding-bottom:4px"><h3 style="font-size:20px">LinkedIn tracking</h3><p class="muted small" style="margin:4px 0 0">Start on 9 Nov, end on 6 Dec.</p></div>
+     <div class="tbl-wrap"><table><thead><tr><th>Metric</th><th>Start</th><th>End</th><th>Target</th></tr></thead><tbody>
+      ${LIMETRICS.map(([k,l,t])=>`<tr><td class="m">${l}</td><td><input type="text" class="in" data-lim="${k}-s" value="${esc(S.lim[k+'-s']||'')}"></td><td><input type="text" class="in" data-lim="${k}-e" value="${esc(S.lim[k+'-e']||'')}"></td><td class="muted">${t}</td></tr>`).join('')}
+     </tbody></table></div></div>
+   </div>
+  </div>`;
+}
+function vIG(){
+  const b=ui.ig||getPref('s30-ig','tk'), c=IGB[b], L=IGC[b];
+  const posted=L.filter(p=>isDone(p.id)).length;
+  const seg=['tk','fs','bd'].map(k=>`<button class="tab ${k===b?'on':''}" data-ig="${k}">${BR[k].n}</button>`).join('');
+  const wk=[['Week 1','2026-11-09','2026-11-15'],['Week 2','2026-11-16','2026-11-22'],['Week 3','2026-11-23','2026-11-29'],['Week 4','2026-11-30','2026-12-06']];
+  const card=p=>`<article class="card post c-${b} ${isDone(p.id)?'posted':''}">
+     <div class="ph"><span class="pill">${esc(p.ph)}</span><span class="tag">${esc(p.f)}</span>${p.pin?'<span class="tag">Pin</span>':''}<span class="date">IG ${p.i+1} · ${fmt(p.d,{weekday:'short',day:'numeric',month:'short'})}</span></div>
+     <h3>${esc(p.t)}</h3>
+     <div class="small"><b>Hook:</b> ${esc(p.hook)}</div>
+     <pre>${mk(p.c)}\n\n${esc(c.trust)}</pre>
+     <div class="hash" style="color:var(--${b})">${esc(c.tags)}</div>
+     <div class="small muted"><b style="color:var(--ink)">Visual:</b> ${esc(p.v)}</div>
+     <div class="small muted"><b style="color:var(--ink)">Stories:</b> ${esc(p.s)}</div>
+     ${stepsHTML(igSteps(b,p),'igc-'+p.id,b)}
+     <div class="foot"><button class="btn dark" data-igcopy="${b}:${p.i}">Copy caption</button><div style="flex:1"></div>${checkHTML(p.id,'Posted',b)}</div>
+   </article>`;
+  return `<div class="view">
+   <div class="tabs" style="display:inline-flex;margin-bottom:16px">${seg}</div>
+   <div class="sec-h"><div><h2>${BR[b].n} Instagram</h2><div class="muted small">${esc(c.cad)}${b==='tk'?' · <a href="https://claude.ai/artifact/5BXzvREy3uwEEYFdECtzGi" target="_blank" rel="noopener" style="color:var(--tk)">Full shot lists</a>':''}</div></div><span class="pill c-${b}">${posted}/${L.length} posted</span></div>
+   ${c.phases?`<div class="phases c-${b}">${c.phases.map(([n,d,x])=>`<div><b>${n}</b><span class="muted small">${d}</span><div>${esc(x)}</div></div>`).join('')}</div>`:''}
+   <div class="card pad" style="margin-top:14px"><div class="kv">
+    ${c.bio?`<div><b>Bio</b><span style="white-space:pre-line">${esc(c.bio)}</span></div>`:''}
+    <div><b>Posting time</b><span>${esc(c.time)}</span></div>
+    <div><b>Highlights</b><span>${esc(c.hl)}</span></div>
+    <div><b>House rules</b><span>${esc(c.rules)}</span></div>
+   </div></div>
+   <div class="grid2" style="margin-top:16px">
+    <div class="card pad"><h3 style="font-size:19px">Setup, step by step</h3>${c.setup.map(([x,s],i)=>checkHTML(`ig-${b}-setup-${i}`,x,b,s)).join('')}</div>
+    <div class="card pad"><h3 style="font-size:19px">Fill before posting</h3><p class="muted small" style="margin:4px 0 6px">The <mark>[highlighted]</mark> bits in captions.</p>${c.fill.map((x,i)=>checkHTML(`ig-${b}-fill-${i}`,x,b)).join('')}</div>
+   </div>
+   ${wk.map(([n,s,e])=>{const ps=L.filter(p=>p.d>=s&&p.d<=e);return ps.length?`<div class="sec-h" style="margin-top:26px"><h2 style="font-size:21px">${n}</h2><span class="muted small">${fmt(s,{day:'numeric',month:'short'})} to ${fmt(e,{day:'numeric',month:'short'})}</span></div><div class="posts">${ps.map(card).join('')}</div>`:''}).join('')}
+   ${b!=='bd'?`<div class="card" style="margin-top:26px"><div class="pad" style="padding-bottom:4px"><h3 style="font-size:19px">Saturday shoots at the unit</h3><p class="muted small" style="margin:4px 0 0">One shoot feeds a week of posts for Taankay and FS.</p></div><div class="tbl-wrap"><table><thead><tr><th>Date</th><th>Capture</th><th>Feeds</th></tr></thead><tbody>${Object.entries(SHOOT).map(([d,x])=>`<tr><td>${fmt(d,{weekday:'short',day:'numeric',month:'short'})}</td><td class="m">${esc(x)}</td><td>${SHOOTFEEDS[d]||''}</td></tr>`).join('')}</tbody></table></div></div>`:''}
+  </div>`;
+}
+function vTaankayOld(){
+  const posted=TKP.filter(p=>isDone(p.id)).length;
+  const wk=[['Week 1: Tease','2026-11-09','2026-11-15'],['Week 2: Tease to launch','2026-11-16','2026-11-22'],['Week 3: Explain','2026-11-23','2026-11-29'],['Week 4: Prove','2026-11-30','2026-12-06']];
+  return `<div class="view">
+   <div class="sec-h"><div><h2>Taankay Instagram launch</h2><div class="muted small">12 feed posts · Tue, Thu, Sat at 8:30 PM PKT · 10 Nov to 5 Dec · batched and scheduled every Wednesday · <a href="https://claude.ai/artifact/5BXzvREy3uwEEYFdECtzGi" target="_blank" rel="noopener" style="color:var(--tk)">Full shot lists</a></div></div><span class="pill c-tk">${posted}/12 posted</span></div>
+   <div class="card pad"><div class="kv">
+    <div><b>Bio</b><span style="white-space:pre-line">Darzi ka "bas kal tak" khatam ✂\nStitching at your doorstep · Lahore\nPay only when it reaches you\n✦ by Fashion Silhouettes</span></div>
+    <div><b>Phases</b><span>Tease 10 to 19 Nov · Launch 21 Nov · Explain 24 to 28 Nov · Prove 1 to 5 Dec</span></div>
+    <div><b>Highlights</b><span>How it works · Prices · Naap Series · Our Work · FAQs</span></div>
+    <div><b>House rules</b><span>Trust line on every caption, same presenter in every reel, every caption ends in a share, save or DM ask, reply to DMs the same day</span></div>
+   </div></div>
+   ${wk.map(([n,s,e])=>`<div class="sec-h" style="margin-top:26px"><h2 style="font-size:21px">${n}</h2></div>
+   <div class="posts">${TKP.filter(p=>p.d>=s&&p.d<=e).map(p=>`<article class="card post c-tk ${isDone(p.id)?'posted':''}">
+     <div class="ph"><span class="pill">${esc(p.ph)}</span><span class="tag">${esc(p.f)}</span>${p.pin?'<span class="tag">Pin</span>':''}<span class="date">IG ${p.i+1} · ${fmt(p.d,{weekday:'short',day:'numeric',month:'short'})} · 8:30 PM</span></div>
+     <h3>${esc(p.t)}</h3>
+     <div class="small"><b>Hook:</b> ${esc(p.hook)}</div>
+     <pre>${mk(p.c)}\n\n${esc(TK_TRUST)}</pre>
+     <div class="hash" style="color:var(--tk)">${esc(TK_TAGS)}</div>
+     <div class="small muted"><b style="color:var(--ink)">Visual:</b> ${esc(p.v)}</div>
+     <div class="small muted"><b style="color:var(--ink)">Stories:</b> ${esc(p.s)}</div>
+     <div class="foot"><button class="btn dark" data-tkcopy="${p.i}">Copy caption</button><div style="flex:1"></div>${checkHTML(p.id,'Posted','tk')}</div>
+   </article>`).join('')}</div>`).join('')}
+   <div class="card pad" style="margin-top:26px"><h3 style="font-size:19px">Fill before posting</h3><p class="muted small" style="margin:4px 0 6px">The <mark>[highlighted]</mark> bits in captions.</p>${['IG 3: Founding 50 intro price','IG 6 and 11: WhatsApp number','IG 9: prices and turnaround days','IG 11: first-order numbers','IG 12: shaadi booking cutoff dates'].map((x,i)=>checkHTML('tkfill-'+i,x,'tk')).join('')}</div>
+  </div>`;
+}
+function vLinkedIn(){
+  const posted=LIVE.filter(p=>isDone(p.id)).length;
+  return `<div class="view">
+   <div class="sec-h"><div><h2>One month on LinkedIn</h2><div class="muted small">From spec to stitch: Bündle.co, Fashion Silhouettes and Taankay · 9 Nov to 6 Dec</div></div><span class="pill c-li">${posted}/8 posted</span></div>
+   <div class="card pad"><div class="kv">
+    <div><b>Goal</b><span>Be the link between design, manufacturing and custom stitching; bring leads to all three.</span></div>
+    <div><b>Cadence</b><span>2 posts a week: Mon and Fri, 30 min each incl. replies</span></div>
+    <div><b>Posting time</b><span>9:00 AM PKT. Test 6:00 PM PKT in week 3.</span></div>
+    <div><b>Voice</b><span>Direct, practical, from the floor. Tag the FS company page on every FS post.</span></div>
+   </div>
+   <div style="margin-top:14px;display:grid;gap:9px">
+    ${['fs','tk','bd','st'].map(k=>bar(PILLAR[k].c,PILLAR[k].n,LIVE.filter(p=>p.p===k&&isDone(p.id)).length,LIVE.filter(p=>p.p===k).length)).join('')}
+   </div></div>
+   ${[1,2,3,4].map(w=>`<div class="sec-h" style="margin-top:26px"><h2 style="font-size:21px">Week ${w}: ${['Introduce','Process','Perspective','Invite'][w-1]}</h2></div>
+   <div class="posts">${LIVE.filter(p=>p.wk===w).map(p=>{const c=PILLAR[p.p].c;return `<article class="card post c-${c} ${isDone(p.id)?'posted':''}">
+     <div class="ph"><span class="pill">${PILLAR[p.p].n}</span><span class="tag">${esc(p.f)}</span><span class="date">Post ${p.n} · ${fmt(p.d,{weekday:'short',day:'numeric',month:'short'})}</span></div>
+     <h3>${esc(p.t)}</h3>
+     <pre>${mk(p.c)}</pre>
+     <div class="hash">${esc(p.h)}</div>
+     <div class="small muted"><b style="color:var(--ink)">Visual:</b> ${esc(p.v)}</div>
+     <div class="foot"><button class="btn dark" data-copy="${p.i}">Copy caption</button><div style="flex:1"></div>${checkHTML(p.id,'Posted',c)}</div>
+   </article>`}).join('')}</div>`).join('')}
+   <div class="sec-h" style="margin-top:26px"><div><h2 style="font-size:21px">December backlog</h2><div class="muted small">Written and ready. Post these once the month frees up time.</div></div></div>
+   <div class="posts">${BACKLOG.map(p=>{const c=PILLAR[p.p].c;return `<article class="card post c-${c}" style="opacity:.85">
+     <div class="ph"><span class="pill">${PILLAR[p.p].n}</span><span class="tag">${esc(p.f)}</span><span class="date">Backlog</span></div>
+     <h3>${esc(p.t)}</h3><pre>${mk(p.c)}</pre><div class="hash">${esc(p.h)}</div>
+     <div class="foot"><button class="btn" data-copy="${p.i}">Copy caption</button></div></article>`}).join('')}</div>
+   <div class="grid3" style="margin-top:26px">
+    <div class="card pad"><h3 style="font-size:19px">Fill before posting</h3><p class="muted small" style="margin:4px 0 6px">The <mark>[highlighted]</mark> bits in captions.</p>${FILL.map((x,i)=>checkHTML('fill-'+i,x,'li')).join('')}</div>
+    <div class="card pad"><h3 style="font-size:19px">Daily engagement</h3><ul class="rules"><li>Inside each 30-min post block: reply to every comment in the first hour</li><li>3 thoughtful comments on post days (founders, buyers, merchandisers)</li><li>10 personalised connection requests a week, on Fridays</li><li>Reshare each FS post from the company page to your profile</li></ul></div>
+    <div class="card pad"><h3 style="font-size:19px">Friday review · 10 min</h3><ul class="rules"><li>Which post got the most comments, and why?</li><li>Which pillar underperformed?</li><li>Any recruiter or client conversations started?</li><li>What to repeat or drop next week?</li></ul><button class="btn" data-go="tracker" style="margin-top:10px">Log metrics in Tracker</button></div>
+   </div>
+  </div>`;
+}
+
+/* ---------- render ---------- */
+function render(){
+  renderHero(); renderChips();
+  const v={today:vToday,calendar:vCalendar,goals:vGoals,tracker:vTracker,instagram:vIG,taankay:vIG,linkedin:vLinkedIn}[ui.tab]||vToday;
+  const dk=x=>x.dataset.k||x.querySelector('summary')?.textContent;
+  const open=[...document.querySelectorAll('details[open]')].map(dk);
+  document.getElementById('view').innerHTML=v();
+  document.querySelectorAll('details').forEach(x=>{if(open.includes(dk(x)))x.open=true});
+}
+function go(tab){ui.tab=tab;setPref('s30-tab',tab);render();window.scrollTo({top:document.querySelector('.nav').offsetTop,behavior:'smooth'})}
+function toast(m){const t=document.getElementById('toast');t.textContent=m;t.classList.add('show');clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove('show'),1800)}
+function copy(txt){
+  const ok=()=>toast('Caption copied');
+  if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(txt).then(ok).catch(()=>fallback(txt,ok))}else fallback(txt,ok);
+}
+function fallback(txt,cb){const a=document.createElement('textarea');a.value=txt;document.body.appendChild(a);a.select();try{document.execCommand('copy');cb()}catch(e){toast('Copy failed, select the text manually')}a.remove()}
+
+document.addEventListener('change',e=>{
+  const el=e.target;
+  if(el.dataset.id){S.done[el.dataset.id]=el.checked;if(!el.checked)delete S.done[el.dataset.id];save();render();if(el.checked)toast('Nice. One less thing.');}
+  if(el.dataset.tr){render()}
+});
+document.addEventListener('input',e=>{
+  const el=e.target;
+  if(el.dataset.note!==undefined){S.notes[el.dataset.note]=el.value;save()}
+  if(el.dataset.tr){S.tr[el.dataset.tr]=S.tr[el.dataset.tr]||{};S.tr[el.dataset.tr][el.dataset.w]=el.value;save()}
+  if(el.dataset.lim){S.lim[el.dataset.lim]=el.value;save()}
+});
+document.addEventListener('click',e=>{
+  const t=e.target.closest('[data-tab],[data-f],[data-nav],[data-day],[data-copy],[data-igcopy],[data-ig],[data-go]');
+  if(!t) return;
+  if(t.dataset.igcopy){e.preventDefault();const[b,i]=t.dataset.igcopy.split(':');const p=IGC[b][+i],c=IGB[b];copy(p.c+'\n\n'+c.trust+'\n\n'+c.tags);return}
+  if(t.dataset.ig){ui.ig=t.dataset.ig;setPref('s30-ig',ui.ig);render();return}
+  if(t.dataset.copy!==undefined){e.preventDefault();const p=POSTS[+t.dataset.copy];copy(p.c+'\n\n'+p.h);return}
+  if(t.dataset.go){e.preventDefault();go(t.dataset.go);return}
+  if(t.dataset.tab){go(t.dataset.tab);return}
+  if(t.dataset.f){const b=t.dataset.f;if(ui.f.has(b)&&ui.f.size===1){ORDER.forEach(x=>ui.f.add(x))}else if(ui.f.has(b))ui.f.delete(b);else ui.f.add(b);render();return}
+  if(t.dataset.nav){ui.sel=t.dataset.nav==='today'?clamp(realToday):clamp(addDays(ui.sel,+t.dataset.nav));render();return}
+  if(t.dataset.day){ui.sel=t.dataset.day;go('today');return}
+});
+document.addEventListener('keydown',e=>{
+  if(ui.tab!=='today'||/INPUT|TEXTAREA/.test(document.activeElement.tagName))return;
+  if(e.key==='ArrowLeft'){ui.sel=clamp(addDays(ui.sel,-1));render()}
+  if(e.key==='ArrowRight'){ui.sel=clamp(addDays(ui.sel,1));render()}
+});
+document.getElementById('themeBtn').onclick=()=>{
+  const r=document.documentElement;const dark=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme: dark)').matches;
+  r.dataset.theme=dark?'light':'dark';setPref('s30-theme',r.dataset.theme);
+};
+document.getElementById('exportBtn').onclick=()=>{
+  const blob=new Blob([JSON.stringify(S,null,2)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=`30-day-progress-${realToday}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);toast('Progress exported');
+};
+document.getElementById('importIn').onchange=e=>{
+  const f=e.target.files[0];if(!f)return;const r=new FileReader();
+  r.onload=()=>{try{const d=JSON.parse(r.result);Object.assign(S,blank(),d);save();render();toast('Progress imported')}catch(err){toast('That file did not look right')}};r.readAsText(f);
+};
+document.getElementById('resetBtn').onclick=()=>{if(confirm('Clear all ticks, notes and tracker numbers in this browser?')){Object.assign(S,blank());save();render();toast('Reset done')}};
+render();
+</script>
+
+
+</body>
+</html>
